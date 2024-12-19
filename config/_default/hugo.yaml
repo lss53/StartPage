@@ -1,0 +1,16 @@
+baseURL: https://211777.xyz
+copyright: Copyright © 2023-{year} [Shiwang](https://211777.xyz). All Rights Reserved.
+title: Shiwang NAV
+
+build:
+  writeStats: true
+
+# 站点的默认语言
+defaultContentLanguage: zh-hans
+
+# 默认语言的 URLs 是否包含语言代码，比如：/en
+defaultContentLanguageInSubdir: true
+
+
+taxonomies: []
+

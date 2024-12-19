@@ -1,0 +1,199 @@
+main:
+  - name: 文档
+    url: https://hbstack.dev/en/themes/start/
+    params:
+      icon:
+        vendor: bs
+        name: book
+
+apps:
+
+  # 课程标准
+  - name: 课标
+    identifier: curstds
+    weight: 1
+
+  - name: 义务教育课程标准（2022年版）@人教社
+    parent: curstds
+    url: https://www.pep.com.cn/xw/zt/rjwy/yjkb2022/
+    weight: 1
+
+  - name: 普通高中课程标准（2017年版2020年修订）@人教社
+    parent: curstds
+    url: https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/
+    weight: 2
+
+  - name: 义务教育课程标准（2022年版）@教育部
+    parent: curstds
+    url: https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm
+    weight: 3
+
+  - name: 普通高中课程标准（2017年版2020年修订）@教育部
+    parent: curstds
+    url: http://www.moe.gov.cn/srcsite/A26/s8001/202006/t20200603_462199.html
+    weight: 4
+
+  # 教材电子版
+  - name: 教材
+    identifier: textbook
+    weight: 2
+
+  - name: 中小学教材电子版
+    parent: textbook
+    url: https://jc.pep.com.cn/
+    weight: 1
+
+  - name: 国家中小学智慧教育平台-课程教学
+    parent: textbook
+    url: https://basic.smartedu.cn/syncClassroom/auto
+    weight: 2
+
+  # 题库
+  - name: 题库
+    identifier: tiku
+    weight: 3
+
+  - name: 组卷网（学科网）
+    parent: tiku
+    url: https://zujuan.xkw.com/
+    weight: 1
+  
+  - name: 九科星（金太阳）
+    parent: tiku
+    url: https://www.jkxjxw.com/
+    weight: 2 
+
+
+  # 语文
+  - name: 语文
+    identifier: chinese
+    weight: 4
+
+  - name: 学过石油的语文老师（奇哥）
+    url: https://space.bilibili.com/39737405
+    weight: 1
+    parent: chinese
+
+  # 数学
+  - name: 数学
+    identifier: maths
+    weight: 5
+
+  - name: 一数
+    url: https://space.bilibili.com/14229967
+    weight: 1
+    parent: maths
+
+  # 英语
+  - name: 英语
+    identifier: english
+    weight: 6
+
+  - name: FREE高考英语（陶然）
+    url: https://space.bilibili.com/2742391
+    weight: 1
+    parent: english
+
+
+  # 物理
+  - name: 物理
+    identifier: physics
+    weight: 7
+
+  - name: HuangFuRen
+    url: https://space.bilibili.com/23630128
+    weight: 1
+    parent: physics
+
+  # 化学
+  - name: 化学
+    identifier: chemistry
+    weight: 8
+
+  - name: 化学老师李政
+    url: https://space.bilibili.com/476738879
+    weight: 1
+    parent: chemistry
+
+  - name: 陆艳华老师
+    url: https://space.bilibili.com/513813254
+    weight: 2
+    parent: chemistry
+
+  # 生物
+  - name: 生物
+    identifier: biology
+    weight: 9
+
+  - name: 一生儿
+    url: https://space.bilibili.com/2036187097
+    weight: 1
+    parent: biology
+
+  - name: 福建高中生物 QQ 群资源@林颖韬
+    parent: biology
+    url: https://share.feijipan.com/s/HQjdaFo
+    weight: 7
+
+  # 历史
+  - name: 历史
+    identifier: history
+    weight: 10
+
+  - name: 历史老师定哥
+    url: https://space.bilibili.com/321084528
+    weight: 1
+    parent: history
+
+  # 政治
+  - name: 政治
+    identifier: politics
+    weight: 11
+
+  - name: Koi大大
+    url: https://space.bilibili.com/280683362
+    weight: 1
+    parent: politics
+
+  # 地理
+  - name: 地理
+    identifier: geography
+    weight: 12
+
+  - name: 地理安迎老师
+    url: https://space.bilibili.com/492547140
+    weight: 1
+    parent: geography
+
+
+  # 志愿填报
+  - name: 志愿
+    identifier: univ
+    weight: 13
+
+  - name: 取景框看世界
+    parent: univ
+    url: https://space.bilibili.com/40427625
+    weight: 1
+    params:
+      icon:
+        vendor: simple
+        name: bilibili
+
+  # 志愿参考
+  - name: 框框大学
+    parent: univ
+    url: https://www.kkdaxue.com/
+    weight: 2
+
+  # 志愿参考
+  - name: 阳光志愿
+    parent: univ
+    url: https://gaokao.chsi.com.cn/zyck/
+    weight: 3
+
+
+
+
+
+
