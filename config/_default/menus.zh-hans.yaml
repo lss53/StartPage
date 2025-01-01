@@ -69,10 +69,46 @@ apps:
     identifier: chinese
     weight: 4
 
-  - name: 学过石油的语文老师（奇哥）
+  - name: 学过石油的语文老师（奇哥） # 免费系统课
     url: https://space.bilibili.com/39737405
     weight: 1
     parent: chinese
+
+  - name: OK语文 # 免费系统课
+    url: https://space.bilibili.com/3493281113573620
+    weight: 2
+    parent: chinese
+
+  - name: 逻辑笑语文 # 小众免费系统课
+    url: https://space.bilibili.com/87931987
+    weight: 3
+    parent: chinese
+
+  - name: 春次是模板小砖家 # 主攻作文
+    url: https://space.bilibili.com/1667838104
+    weight: 4
+    parent: chinese
+
+  - name: 语文作文菌 # 高分作文
+    url: https://space.bilibili.com/505935166
+    weight: 5
+    parent: chinese
+
+  - name: 陈焕文-理性语文陈sir # 作文+套卷
+    url: https://space.bilibili.com/1429201958
+    weight: 6
+    parent: chinese
+
+  - name: 国家玮-开明致学 # 系统课不免费
+    url: https://space.bilibili.com/485578465
+    weight: 7
+    parent: chinese
+
+  - name: 中文系五匪子 # 系统课不免费
+    url: https://space.bilibili.com/7920565
+    weight: 8
+    parent: chinese
+
 
   # 数学
   - name: 数学
@@ -84,14 +120,100 @@ apps:
     weight: 1
     parent: maths
 
+  - name: 会放羊的教书匠 # 同步课讲解
+    url: https://space.bilibili.com/44980991
+    weight: 2
+    parent: maths
+
+  - name: 北大数学胡源老师 # 知识点讲解
+    url: https://space.bilibili.com/3546705530194223
+    weight: 3
+    parent: maths
+
+  - name: 阿不高中数学 # 刷题、知识点都有
+    url: https://space.bilibili.com/1893613490
+    weight: 4
+    parent: maths
+
+  - name: 橘子zhen好吃 # 攻破解析几何、导数、概率等压轴
+    url: https://space.bilibili.com/1956704656
+    weight: 5
+    parent: maths
+
+  - name: ToMath小火车 # 知识点讲解，但一轮要付费
+    url: https://space.bilibili.com/2918884
+    weight: 6
+    parent: maths
+
+  - name: 赵礼显老师 # 知识点+套卷，但系统课要付费
+    url: https://space.bilibili.com/488738478
+    weight: 7
+    parent: maths
+
+  - name: 无巧不成数 # 讲解《创新设计》
+    url: https://space.bilibili.com/98211484
+    weight: 8
+    parent: maths
+
+  - name: 马老师的观点 # 试卷讲解，qq群拥有网络上能找到的几乎所有卷子
+    url: https://space.bilibili.com/88820221
+    weight: 9
+    parent: maths
+
+  - name: differ飘零 # 试卷讲解
+    url: https://space.bilibili.com/363308722
+    weight: 10
+    parent: maths
+
+  - name: 夏老师的数学课 # 试卷讲解
+    url: https://space.bilibili.com/379516008
+    weight: 11
+    parent: maths
+
+  - name: Heshawn高中数学何帅 # 获取高考信息差，仅看视频即可
+    url: https://space.bilibili.com/68554357
+    weight: 12
+    parent: maths
+
+  - name: 宋浩老师官方 # 线性代数讲得贼明白
+    url: https://space.bilibili.com/66607740
+    weight: 13
+    parent: maths
+
+
   # 英语
   - name: 英语
     identifier: english
     weight: 6
 
-  - name: FREE高考英语（陶然）
+  - name: FREE高考英语（陶然） # 从阅读理解角度切入英语，不死磕词汇
     url: https://space.bilibili.com/2742391
     weight: 1
+    parent: english
+
+  - name: 一英儿 # 一数旗下
+    url: https://space.bilibili.com/632207543
+    weight: 2
+    parent: english
+
+  - name: 英语兔 # 啥都有
+    url: https://space.bilibili.com/483162496
+    weight: 3
+    parent: english
+
+  - name: 英语的平行世界 # 知识点覆盖面全
+    url: https://space.bilibili.com/388576777
+    weight: 4
+    parent: english
+
+  - name: 牛油果味牛排咦 # 阅读，视频较短
+    url: https://space.bilibili.com/351383494
+    weight: 5
+    parent: english
+
+  - name: 杭州Looming老师 # 作文讲解
+    url: https://space.bilibili.com/1788209292
+    weight: 6
     parent: english
 
 
@@ -100,34 +222,136 @@ apps:
     identifier: physics
     weight: 7
 
-  - name: HuangFuRen
+  - name: HuangFuRen # 黄夫人，基础
     url: https://space.bilibili.com/23630128
     weight: 1
     parent: physics
+
+  - name: 一物理儿 # 一数旗下
+    url: https://space.bilibili.com/1881916943
+    weight: 2
+    parent: physics
+
+  - name: 北大学长跳跳 # 免费系统课
+    url: https://space.bilibili.com/439177375
+    weight: 3
+    parent: physics
+
+  - name: 夏梦迪-高考物理 # 知识点+试卷讲解
+    url: https://space.bilibili.com/53265107
+    weight: 4
+    parent: physics
+
+  - name: 物理界最好的段子手 # 考前大数据押题，课本回归
+    url: https://space.bilibili.com/323593541
+    weight: 5
+    parent: physics
+
+  - name: 晴姐有美有物理 # 知识点讲解
+    url: https://space.bilibili.com/3546721388857977
+    weight: 6
+    parent: physics
+
+  - name: 赵玉峰大物理 # 系统课要付费
+    url: https://space.bilibili.com/383098482
+    weight: 7
+    parent: physics
+
+  - name: 于总CEO # 初中物理 
+    url: https://space.bilibili.com/328350981
+    weight: 8
+    parent: physics
+
 
   # 化学
   - name: 化学
     identifier: chemistry
     weight: 8
 
-  - name: 化学老师李政
+  - name: 化学老师李政 # 公认的真神
     url: https://space.bilibili.com/476738879
     weight: 1
     parent: chemistry
 
-  - name: 陆艳华老师
-    url: https://space.bilibili.com/513813254
+  - name: 一化儿 # 一数旗下
+    url: https://space.bilibili.com/1526560679
     weight: 2
     parent: chemistry
+
+  - name: 化学超人 # 同步课、知识点
+    url: https://space.bilibili.com/416601949
+    weight: 3
+    parent: chemistry
+
+  - name: 桃子姐姐化学课 # 重难点攻破，知识点记忆技巧，题型攻破
+    url: https://space.bilibili.com/1498318933
+    weight: 4
+    parent: chemistry
+
+  - name: 陆艳华老师 # 知识点讲解
+    url: https://space.bilibili.com/513813254
+    weight: 5
+    parent: chemistry
+
+  - name: agening化学 # 试卷和题型讲解
+    url: https://space.bilibili.com/70605667
+    weight: 6
+    parent: chemistry
+
+  - name: 酒吧舞化学人 # 试卷讲评+资料分享
+    url: https://space.bilibili.com/394995667
+    weight: 7
+    parent: chemistry
+
+  - name: 化学教员张子涵 # 讲题
+    url: https://space.bilibili.com/407270850
+    weight: 8
+    parent: chemistry
+
+  - name: 化化学院老凡 # 素养提高，科普
+    url: https://space.bilibili.com/612929803
+    weight: 9
+    parent: chemistry
+
+  - name: 化学玉 # 学晶胞时，过来看下动画
+    url: https://space.bilibili.com/396025614
+    weight: 10
+    parent: chemistry   
+
 
   # 生物
   - name: 生物
     identifier: biology
     weight: 9
 
-  - name: 一生儿
+  - name: 一生儿 # 一数旗下
     url: https://space.bilibili.com/2036187097
     weight: 1
+    parent: biology
+
+  - name: 汉水丑生侯伟 # 系统课免费
+    url: https://space.bilibili.com/519546088
+    weight: 2
+    parent: biology
+
+  - name: 生物全解-黄森 # 高中生物微课免费+科普
+    url: https://space.bilibili.com/487809003
+    weight: 3
+    parent: biology
+
+  - name: 学生物真有范 # 系统课免费，但课件付费
+    url: https://space.bilibili.com/1544790706
+    weight: 4
+    parent: biology
+
+  - name: 李林生物 # 系统课付费，《李林生物笔记》不错
+    url: https://space.bilibili.com/229823308
+    weight: 5
+    parent: biology
+
+  - name: 生物错题本 # 试卷讲解，非充电系列够用
+    url: https://space.bilibili.com/278461350
+    weight: 6
     parent: biology
 
   - name: 福建高中生物 QQ 群资源@林颖韬
@@ -135,36 +359,78 @@ apps:
     url: https://share.feijipan.com/s/HQjdaFo
     weight: 7
 
-  # 历史
+  - name: 见医知二 # 动画生物
+    parent: biology
+    url: https://space.bilibili.com/1842737120
+    weight: 8
+
+
+  # 历史，石国鹏、袁腾飞
   - name: 历史
     identifier: history
     weight: 10
-
-  - name: 历史老师定哥
+    
+  - name: 历史老师定哥 # 考点+试题讲解
     url: https://space.bilibili.com/321084528
     weight: 1
     parent: history
+
+  - name: 刘勖雯政史地 # 考点+试题讲解
+    url: https://space.bilibili.com/341071568
+    weight: 2
+    parent: history
+
+  - name: 段sir是懂王 # 历政地，考点+模板讲解
+    url: https://space.bilibili.com/402847001
+    weight: 3
+    parent: history
+
 
   # 政治
   - name: 政治
     identifier: politics
     weight: 11
 
-  - name: Koi大大
+  - name: Koi大大 # 系统课免费
     url: https://space.bilibili.com/280683362
     weight: 1
     parent: politics
+
+  - name: 易小川老师 # 佛系更新，不卖课也不卖课件
+    url: https://space.bilibili.com/347401435
+    weight: 2
+    parent: politics
+
+  - name: 高考政治马宇轩 # 试题+知识点讲解
+    url: https://space.bilibili.com/327222408
+    weight: 3
+    parent: politics
+
+  - name: 高中政治周野老师 # 知识点讲解
+    url: https://space.bilibili.com/646603859
+    weight: 4
+    parent: politics
+
 
   # 地理
   - name: 地理
     identifier: geography
     weight: 12
 
-  - name: 地理安迎老师
+  - name: 地理安迎老师 # 考点+试题讲解
     url: https://space.bilibili.com/492547140
     weight: 1
     parent: geography
 
+  - name: 张艳平地理 # 考点+试题讲解
+    url: https://space.bilibili.com/452971381
+    weight: 2
+    parent: geography
+
+  - name: 羊羊的地理教室 # 考点+试题讲解
+    url: https://space.bilibili.com/471009583
+    weight: 3
+    parent: geography
 
   # 志愿填报
   - name: 志愿
@@ -177,7 +443,7 @@ apps:
     weight: 1
     params:
       icon:
-        vendor: simple
+        vendor: simple-icons
         name: bilibili
 
   # 志愿参考

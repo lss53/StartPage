@@ -14,10 +14,56 @@ apps:
     identifier: life
     weight: 1
 
+  - name: Hotspot Hourly # 每小时汇总更新的中国社交网络热点
+    parent: life
+    url: https://hourly.top
+    weight: 1
+
+  - name: HelloGitHub # Github 排行榜收集软件，每天翻一翻有惊喜 ing
+    parent: life
+    url: https://hellogithub.com
+    weight: 2
+
+  - name: 默沙东诊疗手册 # 一个涵盖了医学所有领域成千上万主题的广泛医学信息来源
+    parent: life
+    url: https://www.msdmanuals.cn
+    weight: 3
+
   - name: 多多进宝
     parent: life
     url: https://jinbao.pinduoduo.com/
-    weight: 1
+    weight: 4
+
+  - name: 淘宝联盟
+    parent: life
+    url: https://pub.alimama.com/
+    weight: 5
+
+  - name: 京东联盟
+    parent: life
+    url: https://union.jd.com/
+    weight: 6
+
+  - name: 苏宁易购联盟
+    parent: life
+    url: http://sums.suning.com/
+    weight: 7
+
+  - name: 唯品会联盟
+    parent: life
+    url: https://union.meituan.com/
+    weight: 8
+
+  - name: 美团千载
+    parent: life
+    url: https://union.jd.com/
+    weight: 9
+
+  - name: 巨量百应Buyin
+    parent: life
+    url: https://buyin.jinritemai.com/mpa/account/login?log_out=1/
+    weight: 10
+
 
 # 工作
   - name: Work
@@ -54,6 +100,17 @@ apps:
     weight: 1
     parent: ebook
 
+  - name: Z-Library # 右侧：Z-Library -> 网址
+    url: https://zh.wikipedia.org/wiki/Z-Library
+    weight: 2
+    parent: ebook
+
+  - name: 电脑书籍@国宝2023
+    url: https://www.aliyundrive.com/s/UAhNX5frTEL#r48g
+    weight: 3
+    parent: ebook
+
+
   # 慕课
   - name: Mooc
     identifier: mooc
@@ -64,78 +121,521 @@ apps:
     weight: 1
     parent: mooc
 
+  - name: 学堂在线
+    url: https://next.xuetangx.com/
+    weight: 2
+    parent: mooc
+
+  - name: 华文慕课
+    url: https://www.chinesemooc.org/
+    weight: 3
+    parent: mooc
+
+  - name: 智慧树网 #@耿楠（西北农林科技大学），LaTeX科技排版
+    url: https://www.zhihuishu.com/
+    weight: 4
+    parent: mooc
+
+
   # 人工智能
   - name: AI
     identifier: ai
     weight: 5
 
-  - name: DeeSeek（深度求索）
+  - name: DeeSeek # 深度求索
     url: https://www.deepseek.com/
     weight: 1
     parent: ai
+
+  - name: Claude # 需要和谐上网，不能用国内邮箱注册
+    url: https://claude.ai
+    weight: 2
+    parent: ai
+
+  - name: ChatGPT # OpenAI
+    url: https://chat.openai.com
+    weight: 3
+    parent: ai
+
+  - name: Gemini # Google
+    url: https://ai.google.dev
+    weight: 4
+    parent: ai
+
+  - name: Copilot # Microsoft
+    url: https://copilot.microsoft.com
+    weight: 5
+    parent: ai
+
+  - name: Chatbot Arena
+    url: https://lmarena.ai/
+    weight: 6
+    parent: ai
+
+  - name: character.ai
+    url: https://character.ai/
+    weight: 7
+    parent: ai
+
+  - name: 豆包 # 字节跳动
+    url: https://www.doubao.com
+    weight: 8
+    parent: ai
+
+  - name: QuillBot # 论文润色工具
+    url: https://quillbot.com/
+    weight: 9
+    parent: ai
+
+  - name: Suno # 音乐生产模型
+    url: https://suno.com
+    weight: 10
+    parent: ai
+
+  - name: GPT-SoVITS # 文本转语音
+    url: https://github.com/RVC-Boss/GPT-SoVITS
+    weight: 11
+    parent: ai
+
+  - name: CapsWriter-Offline # 离线语音转文字
+    url: https://github.com/HaujetZhao/CapsWriter-Offline
+    weight: 12
+    parent: ai
+
 
   # 操作系统
   - name: OS
     identifier: os
     weight: 6
 
-  - name: 山己几子木
-    url: https://msdn.sjjzm.com
+  - name: UUP dump # 轻松地从 Windows 更新服务器下载 UUP 文件
+    url: https://uupdump.net
     weight: 1
     parent: os
 
-  # 电脑软件
-  - name: Software
-    identifier: software
-    weight: 7
+  - name: OS.click # 下载 Windows 和 Linux
+    url: https://os.click
+    weight: 2
+    parent: os
 
-  - name: Download
-    url: https://downloadlynet.ir/
-    weight: 1
-    parent: software
+  - name: MSDN-山己几子木 # 下载 Windows 和 Office
+    url: https://msdn.sjjzm.com
+    weight: 3
+    parent: os
+
+  - name: MSDN-系统库 # 下载 Windows 和 Office
+    url: https://www.xitongku.com/
+    weight: 4
+    parent: os
+
+  - name: HelloWindows # 下载 Windows、Office 和 WPS
+    url: https://hellowindows.cn
+    weight: 5
+    parent: os
+
+  - name: Download Windows / Office (MAS)
+    url: https://massgrave.dev/genuine-installation-media
+    weight: 6
+    parent: os
+
+  - name: TechBench by WZT # 可以去他论坛逛逛
+    url: https://tb.rg-adguard.net
+    weight: 7
+    parent: os
 
   # 手机软件
   - name: App
     identifier: app
-    weight: 8
+    weight: 7
 
-  - name: FM影视TV
+  - name: 4PDA  # 老毛子手机论坛
+    parent: app
+    url: https://4pda.to/forum
+    weight: 1
+
+  - name: FM影视TV # 电视：leanback-java-armeabi_v7a.apk
     parent: app
     url: https://github.com/FongMi/Release/raw/fongmi/apk/release
-    weight: 1
-
-  - name: OK影视TV
-    parent: app
-    url: https://github.com/FongMi/Release/blob/main/apk/release
     weight: 2
 
+  - name: OK影视TV # 手机：mobile-java-arm64_v8a.apk
+    parent: app
+    url: https://github.com/FongMi/Release/blob/main/apk/release
+    weight: 3
 
-  # 翻译
-  - name: Transl
-    identifier: transl
+  - name: TVBox_q215613905 # Credit: q215613905
+    parent: app
+    url: https://github.com/o0HalfLife0o/TVBoxOSC/releases
+    weight: 4
+
+  - name: TVBox_takagen99 # Credit: takagen99
+    parent: app
+    url: https://github.com/o0HalfLife0o/TVBoxOSC/releases
+    weight: 5
+
+  - name: EasyBox # 基于TVBox二次开发
+    parent: app
+    url: https://www.easybox.pro/
+    weight: 6
+
+  - name: 影视仓
+    parent: app
+    url: https://drive.uc.cn/s/b437317346a14
+    weight: 7
+
+  - name: uz 影视 # 视频源扩展，分享码：6666、1111、2222
+    parent: app
+    url: https://github.com/YYDS678/uzVideo
+    weight: 8
+
+  - name: 海阔视界 # 规则：https://pd.qq.com/s/2jw5nr6ud 或者 微信公众号：新方圆小棉袄和海阔视界小棉袄
+    parent: app
+    url: http://blog.haikuoshijie.com/archives/fang-yuan-ying-shi-chang-jian-wen-ti
     weight: 9
 
-  - name: 爱词霸
-    url: https://www.iciba.com/translate
+  - name: 洛雪音乐
+    parent: app
+    url: https://lxmusic.toside.cn/
+    weight: 10
+
+  - name: 音源接口 # 洛雪音乐音源接口
+    parent: app
+    url: https://lxmusic.xn--fiqs8s/
+    weight: 11
+
+
+  # 电脑软件
+  - name: Software
+    identifier: software
+    weight: 8
+
+  - name: 零散坑   # 
+    url: https://blog.03k.org/post/kms.html
     weight: 1
-    parent: transl
+    parent: software
+
+  - name: Microsoft Activation Scripts (MAS)   # 
+    url: https://massgrave.dev
+    weight: 2
+    parent: software
+
+  - name: Ohook   # 
+    url: https://github.com/asdcorp/ohook
+    weight: 3
+    parent: software
+
+  - name: MSFreeSoft   # @Ratiborus
+    url: https://msfree.su/index.php
+    weight: 4
+    parent: software
+
+  - name: My Digital Life   # Microsoft Activation，论坛，已注册账号
+    url: https://forums.mydigitallife.net
+    weight: 5
+    parent: software
+
+  - name: VN-Zoom   # Windows and Office key，账号登录1年/次，论坛，已注册账号
+    url: https://vn-z.vn/threads/tong-hop-key-windows-va-office.10945
+    weight: 6
+    parent: software
+
+  - name: PHILka.RU   # Office key，论坛，已注册账号
+    url: https://philka.ru/forum/topic/47480-kliuchi-aktivatcii-microsoft-office-all-version
+    weight: 7
+    parent: software
+
+  - name: Office Installer / C2R Install（汉化）   # @W 汉化Ratiborus作品
+    url: http://shui2012.ysepan.com
+    weight: 8
+    parent: software
+
+  - name: Sordum   # 近百个 Windows 系统优化小工具
+    url: https://sanet.st/full/
+    weight: 9
+    parent: software
+
+  - name: Downloadly # 伊朗软件站
+    url: https://downloadlynet.ir/
+    weight: 10
+    parent: software
+
+  - name: LRepacks # 老毛子软件站（重新打包）
+    url: https://lrepacks.net
+    weight: 11
+    parent: software
+
+  - name: Nsane   # 各种软件，欧美论坛，账号登录1年/次
+    url: https://nsaneforums.com
+    weight: 12
+    parent: software
+
+  - name: Taiwebs   # 各种软件，免翻直达，软件站
+    url: https://taiwebs.com
+    weight: 13
+    parent: software
+
+  - name: CRACKSurl   # 各种软件，和谐上网，软件站
+    url: https://cracksurl.com/
+    weight: 14
+    parent: software
+
+  - name: RuTracker   # 俄罗斯最大的资源网站，论坛
+    url: https://rutracker.org/
+    weight: 15
+    parent: software
+
+  - name: CyberMania # Adobe 破姐资源，软件站
+    url: https://www.cybermania.ws
+    weight: 16
+    parent: software
+
+  - name: UnionDHT  # Adobe 破姐资源@m0nkrus（老毛子），论坛
+    url: https://uniondht.org/tracker.php?nm=Acrobat
+    weight: 17
+    parent: software
+
+  - name: SoftArchive   # 资源搜索引擎，以新发布的软件，游戏，音乐，电影和电子书而闻名，已注册账号
+    url: https://sanet.st/full/
+    weight: 18
+    parent: software
+
+  - name: 数字人民币   # 423down平替
+    url: https://www.itrmb.com/
+    weight: 19
+    parent: software
+
+  - name: Via浏览器收藏合集   # @ 半梦半醒
+    url: https://gitee.com/daybreak166/ViaBrowserCollection/blob/master/README.md
+    weight: 20
+    parent: software
+
+  - name: 闻雷 # 烈火群@闻雷，密码：wenlei.ysepan
+    url: http://wenlei.ysepan.com
+    weight: 21
+    parent: software
+
+  - name: 老康软件铺 # 烈火群@国宝2023
+    url: http://netfood.ysepan.com/
+    weight: 22
+    parent: software
+
+  - name: 林颖韬常用软件
+    url: https://share.feijipan.com/s/oLFrvec/
+    weight: 23
+    parent: software
+
+  - name: 软件小妹   # 软件小妹、软件室、千千软件
+    url: http://doc.qianqian.club/
+    weight: 24
+    parent: software
+
+  - name: 绿软集合   # 一个绿色、纯净的常用软件工具箱
+    url: https://www.greensoftwarehub.com/
+    weight: 25
+    parent: software
+
+  - name: Nite   # 软件、游戏、影视和电子书等
+    url: https://www.nite07.com/
+    weight: 19
+    parent: software
+
 
   # 在线工具
   - name: Onlinetool
     identifier: onlinetool
     weight: 10
 
-  - name: 在线屏幕检测
-    url: https://screen.bmcx.com/#welcome
+  - name: DeepL
+    url: https://www.deepl.com
     weight: 1
     parent: onlinetool
+
+  - name: 有道翻译
+    url: https://fanyi.youdao.com/#/TextTranslate
+    weight: 2
+    parent: onlinetool
+
+  - name: 爱词霸
+    url: https://www.iciba.com/translate
+    weight: 3
+    parent: onlinetool
+
+  - name: TinyPNG
+    url: https://tinify.cn
+    weight: 4
+    parent: onlinetool
+
+  - name: UXWing # 免费图标 SVG、PNG
+    url: https://uxwing.com
+    weight: 5
+    parent: onlinetool
+
+  - name: Font Awesome # 图标库
+    url: https://fontawesome.com/search?o=r&m=free
+    weight: 6
+    parent: onlinetool
+
+  - name: Iconify # 图标库
+    url: https://icon-sets.iconify.design/
+    weight: 7
+    parent: onlinetool
+
+  - name: Iconfont # 图标库
+    url: https://www.iconfont.cn/
+    weight: 8
+    parent: onlinetool
+
+  - name: RealFaviconGenerator # 一张图，支持生成一堆站点图标，PWA的福音
+    url: https://realfavicongenerator.net
+    weight: 9
+    parent: onlinetool
+
+  - name: Favicon InBrowser.App # 一张图，支持生成一堆站点图标，PWA的福音
+    url: https://favicon.inbrowser.app/tools/favicon-generator
+    weight: 10
+    parent: onlinetool
+
+  - name: Markdown Nice # 排版
+    url: https://editor.mdnice.com
+    weight: 11
+    parent: onlinetool
+
+  - name: regex101 # 正则表达式，设置：齿轮(Settings)->General->language->Chinese
+    url: https://regex101.com/
+    weight: 12
+    parent: onlinetool
+
+  - name: 在线屏幕检测
+    url: https://screen.bmcx.com/#welcome
+    weight: 13
+    parent: onlinetool
+
+  - name: 屏幕刷新率检测
+    url: https://testufo.com
+    weight: 14
+    parent: onlinetool
+
 
   # 站长工具
   - name: Webmaster
     identifier: webmaster
     weight: 11
 
-  - name: GitHub
-    url: https://github.com
+  - name: GitHub # 全球最大的同性交友网站
+    url: https://github.com/
     weight: 1
     parent: webmaster
+
+  - name: GitLab # Git托管平台
+    url: https://about.gitlab.com/
+    weight: 2
+    parent: webmaster
+
+  - name: Bitbucket # Git托管平台
+    url: https://bitbucket.org/
+    weight: 3
+    parent: webmaster
+
+  - name: Gitee # Git托管平台
+    url: https://gitee.com/
+    weight: 4
+    parent: webmaster
+
+  - name: GitCode # 由 CODING 自主研发，Git托管平台
+    url: https://gitcode.com/
+    weight: 5
+    parent: webmaster
+
+  - name: Cloudflare Pages # 服务器在美国自家节点，部署平台
+    url: https://pages.cloudflare.com/
+    weight: 6
+    parent: webmaster
+
+  - name: Vercel # 服务器在美国AWS，部署平台
+    url: https://vercel.com/
+    weight: 7
+    parent: webmaster
+
+  - name: Netlify # 服务器在新加坡AWS，部署平台
+    url: https://app.netlify.com/
+    weight: 8
+    parent: webmaster
+
+  - name: 4everland # 服务器在中国香港阿里云，部署平台
+    url: https://www.4everland.org/
+    weight: 9
+    parent: webmaster
+
+  - name: NameSilo # 国外域名注册商，价格低
+    url: https://www.namesilo.com/
+    weight: 10
+    parent: webmaster
+
+  - name: DNSPod # 腾讯云旗下域名解析服务
+    url: https://www.dnspod.cn/
+    weight: 11
+    parent: webmaster
+
+
+  # 编程
+  - name: Programming
+    identifier: prog
+    weight: 12
+
+  # Python
+  - name: 鱼C-小甲鱼
+    url: https://www.bilibili.com/video/BV1c4411e77t
+    weight: 1
+    parent: prog
+
+  - name: 黑马程序员
+    url: https://www.bilibili.com/video/av14184325
+    weight: 2
+    parent: prog
+
+  - name: Python 3 文档
+    url: https://docs.python.org/zh-cn/3/
+    weight: 3
+    parent: prog
+
+  - name: Python-100-Days
+    url: https://github.com/jackfrued/Python-100-Days
+    weight: 4
+    parent: prog
+
+  - name: Python Cookbook 3rd
+    url: https://python3-cookbook.readthedocs.io/zh-cn/latest/index.html
+    weight: 5
+    parent: prog
+
+  # C语言
+  - name: C语言入门课（阮一峰老师） # 最好的C语言入门教程了，没有之一
+    url: https://wangdoc.com/clang/
+    weight: 6
+    parent: prog
+
+  - name: 程序设计入门——C语言 # 翁恺教授，老老实实听课、做笔记
+    url: https://www.icourse163.org/course/ZJU-199001
+    weight: 7
+    parent: prog
+
+  - name: C语言程序设计进阶 # 翁恺教授，老老实实听课、做笔记
+    url: https://www.icourse163.org/course/ZJU-200001
+    weight: 8
+    parent: prog
+
+  - name: Build Your Own Lisp # 认真跟着做这些 lab，真本领就学到手了
+    url: https://www.abnerchou.me/BuildYourOwnLispCn/
+    weight: 8
+    parent: prog
+
+  - name: AutoHotkey v2 # 
+    url: https://wyagd001.github.io/v2/docs/
+    weight: 9
+    parent: prog
+
+
+
+
+
+
