@@ -1,4 +1,4 @@
-module github.com/lss53/nav
+module github.com/lss53/StartPage
 
 go 1.23.4
 
