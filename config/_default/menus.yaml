@@ -8,139 +8,10 @@ main:
 
 apps:
 
-
-# 生活
-  - name: Life
-    identifier: life
-    weight: 1
-
-  - name: Hotspot Hourly # 每小时汇总更新的中国社交网络热点
-    parent: life
-    url: https://hourly.top
-    weight: 1
-
-  - name: HelloGitHub # Github 排行榜收集软件，每天翻一翻有惊喜 ing
-    parent: life
-    url: https://hellogithub.com
-    weight: 2
-
-  - name: 默沙东诊疗手册 # 一个涵盖了医学所有领域成千上万主题的广泛医学信息来源
-    parent: life
-    url: https://www.msdmanuals.cn
-    weight: 3
-
-  - name: 多多进宝
-    parent: life
-    url: https://jinbao.pinduoduo.com/
-    weight: 4
-
-  - name: 淘宝联盟
-    parent: life
-    url: https://pub.alimama.com/
-    weight: 5
-
-  - name: 京东联盟
-    parent: life
-    url: https://union.jd.com/
-    weight: 6
-
-  - name: 苏宁易购联盟
-    parent: life
-    url: http://sums.suning.com/
-    weight: 7
-
-  - name: 唯品会联盟
-    parent: life
-    url: https://union.meituan.com/
-    weight: 8
-
-  - name: 美团千载
-    parent: life
-    url: https://union.jd.com/
-    weight: 9
-
-  - name: 巨量百应Buyin
-    parent: life
-    url: https://buyin.jinritemai.com/mpa/account/login?log_out=1/
-    weight: 10
-
-
-# 工作
-  - name: Work
-    identifier: work
-    weight: 2
-
-  - name: 国家中小学智慧教育平台-教师研修
-    parent: work
-    url: https://basic.smartedu.cn/teacherTrainingNav
-    weight: 1
-
-  - name: 山东省教师教育网 # 继教
-    parent: work
-    url: https://www.qlteacher.com/
-    weight: 2
-    
-  - name: 重庆人社培训网 # 专技人员公需科目
-    parent: work
-    url: https://www.cqrspx.cn/
-    weight: 3
-
-  - name: 重庆市中小学教师培训学分信息管理系统 # 继教登分系统
-    parent: work
-    url: http://teacher.jsfz.cqedu.cn/
-    weight: 4
-
-  # 电子图书
-  - name: eBook
-    identifier: ebook
-    weight: 3
-
-  - name: Anna’s Archive
-    url: https://annas-archive.org/
-    weight: 1
-    parent: ebook
-
-  - name: Z-Library # 右侧：Z-Library -> 网址
-    url: https://zh.wikipedia.org/wiki/Z-Library
-    weight: 2
-    parent: ebook
-
-  - name: 电脑书籍@国宝2023
-    url: https://www.aliyundrive.com/s/UAhNX5frTEL#r48g
-    weight: 3
-    parent: ebook
-
-
-  # 慕课
-  - name: Mooc
-    identifier: mooc
-    weight: 4
-
-  - name: 中国大学 MOOC
-    url: https://www.icourse163.org/
-    weight: 1
-    parent: mooc
-
-  - name: 学堂在线
-    url: https://next.xuetangx.com/
-    weight: 2
-    parent: mooc
-
-  - name: 华文慕课
-    url: https://www.chinesemooc.org/
-    weight: 3
-    parent: mooc
-
-  - name: 智慧树网 #@耿楠（西北农林科技大学），LaTeX科技排版
-    url: https://www.zhihuishu.com/
-    weight: 4
-    parent: mooc
-
-
   # 人工智能
   - name: AI
     identifier: ai
-    weight: 5
+    weight: 1
 
   - name: DeeSeek # 深度求索
     url: https://www.deepseek.com/
@@ -203,8 +74,136 @@ apps:
     parent: ai
 
 
-  # 操作系统
-  - name: OS
+  # 生活
+  - name: Life
+    identifier: life
+    weight: 2
+
+  - name: Hotspot Hourly # 每小时汇总更新的中国社交网络热点
+    parent: life
+    url: https://hourly.top
+    weight: 1
+
+  - name: HelloGitHub # Github 排行榜收集软件，每天翻一翻有惊喜 ing
+    parent: life
+    url: https://hellogithub.com
+    weight: 2
+
+  - name: 默沙东诊疗手册 # 一个涵盖了医学所有领域成千上万主题的广泛医学信息来源
+    parent: life
+    url: https://www.msdmanuals.cn
+    weight: 3
+
+  - name: 多多进宝
+    parent: life
+    url: https://jinbao.pinduoduo.com/
+    weight: 4
+
+  - name: 淘宝联盟
+    parent: life
+    url: https://pub.alimama.com/
+    weight: 5
+
+  - name: 京东联盟
+    parent: life
+    url: https://union.jd.com/
+    weight: 6
+
+  - name: 苏宁易购联盟
+    parent: life
+    url: http://sums.suning.com/
+    weight: 7
+
+  - name: 唯品会联盟
+    parent: life
+    url: https://union.meituan.com/
+    weight: 8
+
+  - name: 美团千载
+    parent: life
+    url: https://union.jd.com/
+    weight: 9
+
+  - name: 巨量百应Buyin
+    parent: life
+    url: https://buyin.jinritemai.com/mpa/account/login?log_out=1/
+    weight: 10
+
+
+  # 工作
+  - name: Work
+    identifier: work
+    weight: 3
+
+  - name: 国家中小学智慧教育平台-教师研修
+    parent: work
+    url: https://basic.smartedu.cn/teacherTrainingNav
+    weight: 1
+
+  - name: 山东省教师教育网 # 继教
+    parent: work
+    url: https://www.qlteacher.com/
+    weight: 2
+    
+  - name: 重庆人社培训网 # 专技人员公需科目
+    parent: work
+    url: https://www.cqrspx.cn/
+    weight: 3
+
+  - name: 重庆市中小学教师培训学分信息管理系统 # 继教登分系统
+    parent: work
+    url: http://teacher.jsfz.cqedu.cn/
+    weight: 4
+
+  # 电子图书
+  - name: eBook
+    identifier: ebook
+    weight: 4
+
+  - name: Anna’s Archive
+    url: https://annas-archive.org/
+    weight: 1
+    parent: ebook
+
+  - name: Z-Library # 右侧：Z-Library -> 网址
+    url: https://zh.wikipedia.org/wiki/Z-Library
+    weight: 2
+    parent: ebook
+
+  - name: 电脑书籍@国宝2023
+    url: https://www.aliyundrive.com/s/UAhNX5frTEL#r48g
+    weight: 3
+    parent: ebook
+
+
+  # 慕课
+  - name: Mooc
+    identifier: mooc
+    weight: 5
+
+  - name: 中国大学 MOOC
+    url: https://www.icourse163.org/
+    weight: 1
+    parent: mooc
+
+  - name: 学堂在线
+    url: https://next.xuetangx.com/
+    weight: 2
+    parent: mooc
+
+  - name: 华文慕课
+    url: https://www.chinesemooc.org/
+    weight: 3
+    parent: mooc
+
+  - name: 智慧树网 #@耿楠（西北农林科技大学），LaTeX科技排版
+    url: https://www.zhihuishu.com/
+    weight: 4
+    parent: mooc
+
+
+  # Windows + Office
+  - name: Microsoft
     identifier: os
     weight: 6
 
@@ -243,71 +242,10 @@ apps:
     weight: 7
     parent: os
 
-  # 手机软件
-  - name: App
-    identifier: app
-    weight: 7
-
-  - name: 4PDA  # 老毛子手机论坛
-    parent: app
-    url: https://4pda.to/forum
-    weight: 1
-
-  - name: FM影视TV # 电视：leanback-java-armeabi_v7a.apk
-    parent: app
-    url: https://github.com/FongMi/Release/raw/fongmi/apk/release
-    weight: 2
-
-  - name: OK影视TV # 手机：mobile-java-arm64_v8a.apk
-    parent: app
-    url: https://github.com/FongMi/Release/blob/main/apk/release
-    weight: 3
-
-  - name: TVBox_q215613905 # Credit: q215613905
-    parent: app
-    url: https://github.com/o0HalfLife0o/TVBoxOSC/releases
-    weight: 4
-
-  - name: TVBox_takagen99 # Credit: takagen99
-    parent: app
-    url: https://github.com/o0HalfLife0o/TVBoxOSC/releases
-    weight: 5
-
-  - name: EasyBox # 基于TVBox二次开发
-    parent: app
-    url: https://www.easybox.pro/
-    weight: 6
-
-  - name: 影视仓
-    parent: app
-    url: https://drive.uc.cn/s/b437317346a14
-    weight: 7
-
-  - name: uz 影视 # 视频源扩展，分享码：6666、1111、2222
-    parent: app
-    url: https://github.com/YYDS678/uzVideo
-    weight: 8
-
-  - name: 海阔视界 # 规则：https://pd.qq.com/s/2jw5nr6ud 或者 微信公众号：新方圆小棉袄和海阔视界小棉袄
-    parent: app
-    url: http://blog.haikuoshijie.com/archives/fang-yuan-ying-shi-chang-jian-wen-ti
-    weight: 9
-
-  - name: 洛雪音乐
-    parent: app
-    url: https://lxmusic.toside.cn/
-    weight: 10
-
-  - name: 音源接口 # 洛雪音乐音源接口
-    parent: app
-    url: https://lxmusic.xn--fiqs8s/
-    weight: 11
-
-
   # 电脑软件
   - name: Software
     identifier: software
-    weight: 8
+    weight: 7
 
   - name: 零散坑   # 
     url: https://blog.03k.org/post/kms.html
@@ -449,11 +387,71 @@ apps:
     weight: 28
     parent: software
 
+  # 手机软件
+  - name: Android
+    identifier: app
+    weight: 8
+
+  - name: 4PDA  # 老毛子手机论坛
+    parent: app
+    url: https://4pda.to/forum
+    weight: 1
+
+  - name: FM影视TV # 电视：leanback-java-armeabi_v7a.apk
+    parent: app
+    url: https://github.com/FongMi/Release/raw/fongmi/apk/release
+    weight: 2
+
+  - name: OK影视TV # 手机：mobile-java-arm64_v8a.apk
+    parent: app
+    url: https://github.com/FongMi/Release/blob/main/apk/release
+    weight: 3
+
+  - name: TVBox_q215613905 # Credit: q215613905
+    parent: app
+    url: https://github.com/o0HalfLife0o/TVBoxOSC/releases
+    weight: 4
+
+  - name: TVBox_takagen99 # Credit: takagen99
+    parent: app
+    url: https://github.com/o0HalfLife0o/TVBoxOSC/releases
+    weight: 5
+
+  - name: EasyBox # 基于TVBox二次开发
+    parent: app
+    url: https://www.easybox.pro/
+    weight: 6
+
+  - name: 影视仓
+    parent: app
+    url: https://drive.uc.cn/s/b437317346a14
+    weight: 7
+
+  - name: uz 影视 # 视频源扩展，分享码：6666、1111、2222
+    parent: app
+    url: https://github.com/YYDS678/uzVideo
+    weight: 8
+
+  - name: 海阔视界 # 规则：https://pd.qq.com/s/2jw5nr6ud 或者 微信公众号：新方圆小棉袄和海阔视界小棉袄
+    parent: app
+    url: http://blog.haikuoshijie.com/archives/fang-yuan-ying-shi-chang-jian-wen-ti
+    weight: 9
+
+  - name: 洛雪音乐
+    parent: app
+    url: https://lxmusic.toside.cn/
+    weight: 10
+
+  - name: 音源接口 # 洛雪音乐音源接口
+    parent: app
+    url: https://lxmusic.xn--fiqs8s/
+    weight: 11
+
 
   # 在线工具
   - name: Onlinetool
     identifier: onlinetool
-    weight: 10
+    weight: 9
 
   - name: DeepL
     url: https://www.deepl.com
@@ -529,7 +527,7 @@ apps:
   # 站长工具
   - name: Webmaster
     identifier: webmaster
-    weight: 11
+    weight: 10
 
   - name: GitHub # 全球最大的同性交友网站
     url: https://github.com/
@@ -590,7 +588,7 @@ apps:
   # 编程
   - name: Programming
     identifier: prog
-    weight: 12
+    weight: 11
 
   # Python
   - name: Python入门@鱼C-小甲鱼
@@ -648,7 +646,7 @@ apps:
   # 科普
   - name: Pop-science
     identifier: popscience
-    weight: 13
+    weight: 12
 
   - name: 柴知道 # 内容风趣幽默
     url: https://space.bilibili.com/26798384
