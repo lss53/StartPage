@@ -364,6 +364,11 @@ apps:
     url: https://space.bilibili.com/1842737120
     weight: 8
 
+  - name: 毛茸茸的星球 # 科普动物世界
+    parent: biology
+    url: https://space.bilibili.com/431753564
+    weight: 9
+
 
   # 历史，石国鹏、袁腾飞
   - name: 历史
@@ -431,6 +436,7 @@ apps:
     url: https://space.bilibili.com/471009583
     weight: 3
     parent: geography
+
 
   # 志愿填报
   - name: 志愿

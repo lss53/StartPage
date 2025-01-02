@@ -399,44 +399,54 @@ apps:
     weight: 18
     parent: software
 
-  - name: 数字人民币   # 423down平替
-    url: https://www.itrmb.com/
+  - name: IDM_Cracker   # by Ali.Dbg https://ckk.ir
+    url: https://idm.ckk.ir
     weight: 19
     parent: software
 
-  - name: Via浏览器收藏合集   # @ 半梦半醒
-    url: https://gitee.com/daybreak166/ViaBrowserCollection/blob/master/README.md
+  - name: 数字人民币   # 423down平替
+    url: https://www.itrmb.com/
     weight: 20
-    parent: software
-
-  - name: 闻雷 # 烈火群@闻雷，密码：wenlei.ysepan
-    url: http://wenlei.ysepan.com
-    weight: 21
-    parent: software
-
-  - name: 老康软件铺 # 烈火群@国宝2023
-    url: http://netfood.ysepan.com/
-    weight: 22
-    parent: software
-
-  - name: 林颖韬常用软件
-    url: https://share.feijipan.com/s/oLFrvec/
-    weight: 23
-    parent: software
-
-  - name: 软件小妹   # 软件小妹、软件室、千千软件
-    url: http://doc.qianqian.club/
-    weight: 24
-    parent: software
-
-  - name: 绿软集合   # 一个绿色、纯净的常用软件工具箱
-    url: https://www.greensoftwarehub.com/
-    weight: 25
     parent: software
 
   - name: Nite   # 软件、游戏、影视和电子书等
     url: https://www.nite07.com/
-    weight: 19
+    weight: 21
+    parent: software
+
+  - name: Via浏览器收藏合集   # @ 半梦半醒
+    url: https://gitee.com/daybreak166/ViaBrowserCollection/blob/master/README.md
+    weight: 22
+    parent: software
+
+  - name: 闻雷 # 烈火群@闻雷，密码：wenlei.ysepan
+    url: http://wenlei.ysepan.com
+    weight: 23
+    parent: software
+
+  - name: 老康软件铺 # 烈火群@国宝2023
+    url: http://netfood.ysepan.com/
+    weight: 24
+    parent: software
+
+  - name: 林颖韬常用软件
+    url: https://share.feijipan.com/s/oLFrvec/
+    weight: 25
+    parent: software
+
+  - name: 软件小妹   # 软件小妹、软件室、千千软件
+    url: http://doc.qianqian.club/
+    weight: 26
+    parent: software
+
+  - name: 绿软集合   # 一个绿色、纯净的常用软件工具箱
+    url: https://www.greensoftwarehub.com/
+    weight: 27
+    parent: software
+
+  - name: QQ   # https://apphot.cc/286.html
+    url: https://www.123pan.com/s/b6cA-wUxpA.html
+    weight: 28
     parent: software
 
 
@@ -583,12 +593,12 @@ apps:
     weight: 12
 
   # Python
-  - name: 鱼C-小甲鱼
+  - name: Python入门@鱼C-小甲鱼
     url: https://www.bilibili.com/video/BV1c4411e77t
     weight: 1
     parent: prog
 
-  - name: 黑马程序员
+  - name: Python精通@黑马程序员
     url: https://www.bilibili.com/video/av14184325
     weight: 2
     parent: prog
@@ -626,16 +636,52 @@ apps:
 
   - name: Build Your Own Lisp # 认真跟着做这些 lab，真本领就学到手了
     url: https://www.abnerchou.me/BuildYourOwnLispCn/
-    weight: 8
+    weight: 9
     parent: prog
 
   - name: AutoHotkey v2 # 
     url: https://wyagd001.github.io/v2/docs/
-    weight: 9
+    weight: 10
     parent: prog
 
 
+  # 科普
+  - name: Pop-science
+    identifier: popscience
+    weight: 13
+
+  - name: 柴知道 # 内容风趣幽默
+    url: https://space.bilibili.com/26798384
+    weight: 1
+    parent: popscience
+
+  - name: 天冬Asp # 植物+自然科普
+    url: https://space.bilibili.com/338235854
+    weight: 2
+    parent: popscience
+
+  - name: 无穷小亮的科普日常 # 科普工作中的有趣小事
+    url: https://space.bilibili.com/14804670
+    weight: 3
+    parent: popscience
+
+  - name: 二次元的中科院物理所 # 中科院物理所
+    url: https://space.bilibili.com/407045223
+    weight: 1
+    parent: popscience
+
+  - name: 萌萌战队 # 航空航天行业的业内人士
+    url: https://space.bilibili.com/357669580
+    weight: 1
+    parent: popscience
 
 
 
 
+
+
+
+
+
+ 
+    
