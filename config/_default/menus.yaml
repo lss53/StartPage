@@ -242,150 +242,161 @@ apps:
     weight: 7
     parent: os
 
-  # 电脑软件
-  - name: Software
-    identifier: software
+  # Windows 软件
+  - name: Windows
+    identifier: win
     weight: 7
 
   - name: 零散坑   # 
     url: https://blog.03k.org/post/kms.html
     weight: 1
-    parent: software
+    parent: win
 
   - name: Microsoft Activation Scripts (MAS)   # 
     url: https://massgrave.dev
     weight: 2
-    parent: software
+    parent: win
 
   - name: Ohook   # 
     url: https://github.com/asdcorp/ohook
     weight: 3
-    parent: software
+    parent: win
 
   - name: MSFreeSoft   # @Ratiborus
     url: https://msfree.su/index.php
     weight: 4
-    parent: software
+    parent: win
 
   - name: My Digital Life   # Microsoft Activation，论坛，已注册账号
     url: https://forums.mydigitallife.net
     weight: 5
-    parent: software
+    parent: win
 
   - name: VN-Zoom   # Windows and Office key，账号登录1年/次，论坛，已注册账号
     url: https://vn-z.vn/threads/tong-hop-key-windows-va-office.10945
     weight: 6
-    parent: software
+    parent: win
 
   - name: PHILka.RU   # Office key，论坛，已注册账号
     url: https://philka.ru/forum/topic/47480-kliuchi-aktivatcii-microsoft-office-all-version
     weight: 7
-    parent: software
+    parent: win
 
   - name: Office Installer / C2R Install（汉化）   # @W 汉化Ratiborus作品
     url: http://shui2012.ysepan.com
     weight: 8
-    parent: software
+    parent: win
 
   - name: Sordum   # 近百个 Windows 系统优化小工具
     url: https://sanet.st/full/
     weight: 9
-    parent: software
+    parent: win
 
   - name: Downloadly # 伊朗软件站
     url: https://downloadlynet.ir/
     weight: 10
-    parent: software
+    parent: win
 
   - name: LRepacks # 老毛子软件站（重新打包）
     url: https://lrepacks.net
     weight: 11
-    parent: software
+    parent: win
 
   - name: Nsane   # 各种软件，欧美论坛，账号登录1年/次
     url: https://nsaneforums.com
     weight: 12
-    parent: software
+    parent: win
 
   - name: Taiwebs   # 各种软件，免翻直达，软件站
     url: https://taiwebs.com
     weight: 13
-    parent: software
+    parent: win
 
   - name: CRACKSurl   # 各种软件，和谐上网，软件站
     url: https://cracksurl.com/
     weight: 14
-    parent: software
+    parent: win
 
   - name: RuTracker   # 俄罗斯最大的资源网站，论坛
     url: https://rutracker.org/
     weight: 15
-    parent: software
+    parent: win
 
   - name: CyberMania # Adobe 破姐资源，软件站
     url: https://www.cybermania.ws
     weight: 16
-    parent: software
+    parent: win
 
   - name: UnionDHT  # Adobe 破姐资源@m0nkrus（老毛子），论坛
     url: https://uniondht.org/tracker.php?nm=Acrobat
     weight: 17
-    parent: software
+    parent: win
 
   - name: SoftArchive   # 资源搜索引擎，以新发布的软件，游戏，音乐，电影和电子书而闻名，已注册账号
     url: https://sanet.st/full/
     weight: 18
-    parent: software
-
-  - name: IDM_Cracker   # by Ali.Dbg https://ckk.ir
-    url: https://idm.ckk.ir
-    weight: 19
-    parent: software
+    parent: win
 
   - name: 数字人民币   # 423down平替
     url: https://www.itrmb.com/
-    weight: 20
-    parent: software
+    weight: 19
+    parent: win
 
   - name: Nite   # 软件、游戏、影视和电子书等
     url: https://www.nite07.com/
-    weight: 21
-    parent: software
-
-  - name: Via浏览器收藏合集   # @ 半梦半醒
-    url: https://gitee.com/daybreak166/ViaBrowserCollection/blob/master/README.md
-    weight: 22
-    parent: software
+    weight: 20
+    parent: win
 
   - name: 闻雷 # 烈火群@闻雷，密码：wenlei.ysepan
     url: http://wenlei.ysepan.com
-    weight: 23
-    parent: software
+    weight: 21
+    parent: win
 
   - name: 老康软件铺 # 烈火群@国宝2023
     url: http://netfood.ysepan.com/
-    weight: 24
-    parent: software
+    weight: 22
+    parent: win
 
   - name: 林颖韬常用软件
     url: https://share.feijipan.com/s/oLFrvec/
-    weight: 25
-    parent: software
+    weight: 23
+    parent: win
 
   - name: 软件小妹   # 软件小妹、软件室、千千软件
     url: http://doc.qianqian.club/
-    weight: 26
-    parent: software
+    weight: 24
+    parent: win
 
   - name: 绿软集合   # 一个绿色、纯净的常用软件工具箱
-    url: https://www.greensoftwarehub.com/
-    weight: 27
-    parent: software
+    url: https://www.greenwinhub.com/
+    weight: 25
+    parent: win
 
   - name: QQ   # https://apphot.cc/286.html
     url: https://www.123pan.com/s/b6cA-wUxpA.html
+    weight: 26
+    parent: win
+
+  - name: Via浏览器收藏合集   # @ 半梦半醒
+    url: https://gitee.com/daybreak166/ViaBrowserCollection/blob/master/README.md
+    weight: 27
+    parent: win
+
+  - name: IDM   # Ali.Dbg 网站：https://ckk.ir
+    url: https://idm.ckk.ir
     weight: 28
-    parent: software
+    parent: win
+
+  - name: JetBra   # 点进去会自动校验链接（激活脚本的发布地址），点绿色链接去下载
+    url: https://3.jetbra.in/
+    weight: 29
+    parent: win
+
+  - name: ODE   # 百度网盘下载
+    url: https://www.uy5.net/ode
+    weight: 30
+    parent: win
+
 
   # 手机软件
   - name: Android
@@ -432,7 +443,7 @@ apps:
     url: https://github.com/YYDS678/uzVideo
     weight: 8
 
-  - name: 海阔视界 # 规则：https://pd.qq.com/s/2jw5nr6ud 或者 微信公众号：新方圆小棉袄和海阔视界小棉袄
+  - name: 海阔视界 # 规则：https://pd.qq.com/s/2jw5nr6ud 和 微信公众号：新方圆小棉袄和海阔视界小棉袄
     parent: app
     url: http://blog.haikuoshijie.com/archives/fang-yuan-ying-shi-chang-jian-wen-ti
     weight: 9
@@ -441,11 +452,6 @@ apps:
     parent: app
     url: https://lxmusic.toside.cn/
     weight: 10
-
-  - name: 音源接口 # 洛雪音乐音源接口
-    parent: app
-    url: https://lxmusic.xn--fiqs8s/
-    weight: 11
 
 
   # 在线工具
