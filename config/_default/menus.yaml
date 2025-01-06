@@ -489,44 +489,34 @@ apps:
     weight: 6
     parent: onlinetool
 
-  - name: Iconify # 图标库
-    url: https://icon-sets.iconify.design/
-    weight: 7
-    parent: onlinetool
-
-  - name: Iconfont # 图标库
-    url: https://www.iconfont.cn/
-    weight: 8
-    parent: onlinetool
-
   - name: RealFaviconGenerator # 一张图，支持生成一堆站点图标，PWA的福音
     url: https://realfavicongenerator.net
-    weight: 9
+    weight: 7
     parent: onlinetool
 
   - name: Favicon InBrowser.App # 一张图，支持生成一堆站点图标，PWA的福音
     url: https://favicon.inbrowser.app/tools/favicon-generator
-    weight: 10
+    weight: 8
     parent: onlinetool
 
   - name: Markdown Nice # 排版
     url: https://editor.mdnice.com
-    weight: 11
+    weight: 9
     parent: onlinetool
 
   - name: regex101 # 正则表达式，设置：齿轮(Settings)->General->language->Chinese
     url: https://regex101.com/
-    weight: 12
+    weight: 10
     parent: onlinetool
 
   - name: 在线屏幕检测
     url: https://screen.bmcx.com/#welcome
-    weight: 13
+    weight: 11
     parent: onlinetool
 
   - name: 屏幕刷新率检测
     url: https://testufo.com
-    weight: 14
+    weight: 12
     parent: onlinetool
 
 
