@@ -9,11 +9,11 @@ main:
 apps:
 
   # 人工智能
-  - name: AI
+  - name: Ai
     identifier: ai
     weight: 1
 
-  - name: DeeSeek # 深度求索
+  - name: DeepSeek # 深度求索
     url: https://www.deepseek.com/
     weight: 1
     parent: ai
@@ -67,12 +67,19 @@ apps:
     url: https://github.com/RVC-Boss/GPT-SoVITS
     weight: 11
     parent: ai
+    params:
+      icon:
+        vendor: bs
+        name: github
 
   - name: CapsWriter-Offline # 离线语音转文字
     url: https://github.com/HaujetZhao/CapsWriter-Offline
     weight: 12
     parent: ai
-
+    params:
+      icon:
+        vendor: bootstrap
+        name: github
 
   # 生活
   - name: Life
@@ -98,6 +105,11 @@ apps:
     parent: life
     url: https://jinbao.pinduoduo.com/
     weight: 4
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: money-check-dollar
+
 
   - name: 淘宝联盟
     parent: life
@@ -174,7 +186,10 @@ apps:
     url: https://www.aliyundrive.com/s/UAhNX5frTEL#r48g
     weight: 3
     parent: ebook
-
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: book
 
   # 慕课
   - name: Mooc
@@ -376,6 +391,10 @@ apps:
     url: https://www.123pan.com/s/b6cA-wUxpA.html
     weight: 26
     parent: win
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: qq
 
   - name: Via浏览器收藏合集   # @ 半梦半醒
     url: https://gitee.com/daybreak166/ViaBrowserCollection/blob/master/README.md
@@ -412,21 +431,37 @@ apps:
     parent: app
     url: https://github.com/FongMi/Release/raw/fongmi/apk/release
     weight: 2
+    params:
+      icon:
+        vendor: bs
+        name: github
 
   - name: OK影视TV # 手机：mobile-java-arm64_v8a.apk
     parent: app
     url: https://github.com/FongMi/Release/blob/main/apk/release
     weight: 3
+    params:
+      icon:
+        vendor: bs
+        name: github
 
   - name: TVBox_q215613905 # Credit: q215613905
     parent: app
     url: https://github.com/o0HalfLife0o/TVBoxOSC/releases
     weight: 4
+    params:
+      icon:
+        vendor: bs
+        name: github
 
   - name: TVBox_takagen99 # Credit: takagen99
     parent: app
     url: https://github.com/o0HalfLife0o/TVBoxOSC/releases
     weight: 5
+    params:
+      icon:
+        vendor: bs
+        name: github
 
   - name: EasyBox # 基于TVBox二次开发
     parent: app
@@ -442,6 +477,10 @@ apps:
     parent: app
     url: https://github.com/YYDS678/uzVideo
     weight: 8
+    params:
+      icon:
+        vendor: bs
+        name: github
 
   - name: 海阔视界 # 规则：https://pd.qq.com/s/2jw5nr6ud 和 微信公众号：新方圆小棉袄和海阔视界小棉袄
     parent: app
@@ -529,21 +568,37 @@ apps:
     url: https://github.com/
     weight: 1
     parent: webmaster
+    params:
+      icon:
+        vendor: bs
+        name: github
 
   - name: GitLab # Git托管平台
-    url: https://about.gitlab.com/
+    url: https://gitlab.com/
     weight: 2
     parent: webmaster
+    params:
+      icon:
+        vendor: bs
+        name: gitlab
 
   - name: Bitbucket # Git托管平台
     url: https://bitbucket.org/
     weight: 3
     parent: webmaster
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bitbucket
 
   - name: Gitee # Git托管平台
     url: https://gitee.com/
     weight: 4
     parent: webmaster
+    params:
+      icon:
+        vendor: simple-icons
+        name: gitee
 
   - name: GitCode # 由 CODING 自主研发，Git托管平台
     url: https://gitcode.com/
@@ -554,6 +609,10 @@ apps:
     url: https://pages.cloudflare.com/
     weight: 6
     parent: webmaster
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: cloudflare
 
   - name: Vercel # 服务器在美国AWS，部署平台
     url: https://vercel.com/
@@ -591,11 +650,19 @@ apps:
     url: https://www.bilibili.com/video/BV1c4411e77t
     weight: 1
     parent: prog
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: Python精通@黑马程序员
     url: https://www.bilibili.com/video/av14184325
     weight: 2
     parent: prog
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: Python 3 文档
     url: https://docs.python.org/zh-cn/3/
@@ -640,7 +707,7 @@ apps:
 
 
   # 科普
-  - name: Pop-science
+  - name: Popscience
     identifier: popscience
     weight: 12
 
@@ -648,31 +715,70 @@ apps:
     url: https://space.bilibili.com/26798384
     weight: 1
     parent: popscience
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 天冬Asp # 植物+自然科普
     url: https://space.bilibili.com/338235854
     weight: 2
     parent: popscience
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 无穷小亮的科普日常 # 科普工作中的有趣小事
     url: https://space.bilibili.com/14804670
     weight: 3
     parent: popscience
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 二次元的中科院物理所 # 中科院物理所
     url: https://space.bilibili.com/407045223
-    weight: 1
+    weight: 4
     parent: popscience
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 萌萌战队 # 航空航天行业的业内人士
     url: https://space.bilibili.com/357669580
-    weight: 1
+    weight: 5
     parent: popscience
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
+  # 视频教程
+  - name: Videotutorial
+    identifier: tutorial
+    weight: 13
 
+  - name: EduEditer # @菜鸟主老王
+    url: https://space.bilibili.com/15929124
+    weight: 1
+    parent: tutorial
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
+  - name: Oeasy系列 # 很会玩的老师，通俗易懂，很多系列可学
+    url: http://oeasy.org
+    weight: 2
+    parent: tutorial
 
-
+  - name: doyoudo # 有趣通俗易懂教你用PS、做剪辑等
+    url: https://www.doyoudo.com
+    weight: 3
+    parent: tutorial
 
 
 
