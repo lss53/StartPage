@@ -62,6 +62,10 @@ apps:
     url: https://suno.com
     weight: 10
     parent: ai
+    params:
+      icon:
+        vendor: bs
+        name: music-note-beamed
 
   - name: GPT-SoVITS # 文本转语音
     url: https://github.com/RVC-Boss/GPT-SoVITS
@@ -95,11 +99,19 @@ apps:
     parent: life
     url: https://hellogithub.com
     weight: 2
+    params:
+      icon:
+        vendor: bootstrap
+        name: github
 
   - name: 默沙东诊疗手册 # 一个涵盖了医学所有领域成千上万主题的广泛医学信息来源
     parent: life
     url: https://www.msdmanuals.cn
     weight: 3
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: book-medical
 
   - name: 多多进宝
     parent: life
@@ -109,7 +121,6 @@ apps:
       icon:
         vendor: font-awesome-solid
         name: money-check-dollar
-
 
   - name: 淘宝联盟
     parent: life
@@ -151,6 +162,10 @@ apps:
     parent: work
     url: https://basic.smartedu.cn/teacherTrainingNav
     weight: 1
+    params:
+      icon:
+        vendor: simple-icons
+        name: educative
 
   - name: 山东省教师教育网 # 继教
     parent: work
@@ -166,6 +181,11 @@ apps:
     parent: work
     url: http://teacher.jsfz.cqedu.cn/
     weight: 4
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: leaf
+
 
   # 电子图书
   - name: eBook
@@ -215,6 +235,10 @@ apps:
     url: https://www.zhihuishu.com/
     weight: 4
     parent: mooc
+    params:
+      icon:
+        vendor: font-awesome-regular
+        name: file-video
 
 
   # Windows + Office
@@ -276,6 +300,10 @@ apps:
     url: https://github.com/asdcorp/ohook
     weight: 3
     parent: win
+    params:
+      icon:
+        vendor: bs
+        name: github
 
   - name: MSFreeSoft   # @Ratiborus
     url: https://msfree.su/index.php
@@ -286,6 +314,10 @@ apps:
     url: https://forums.mydigitallife.net
     weight: 5
     parent: win
+    params:
+      icon:
+        vendor: bs
+        name: lightbulb
 
   - name: VN-Zoom   # Windows and Office key，账号登录1年/次，论坛，已注册账号
     url: https://vn-z.vn/threads/tong-hop-key-windows-va-office.10945
@@ -426,6 +458,10 @@ apps:
     parent: app
     url: https://4pda.to/forum
     weight: 1
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: mobile-screen
 
   - name: FM影视TV # 电视：leanback-java-armeabi_v7a.apk
     parent: app
@@ -472,6 +508,10 @@ apps:
     parent: app
     url: https://drive.uc.cn/s/b437317346a14
     weight: 7
+    params:
+      icon:
+        vendor: bs
+        name: tv
 
   - name: uz 影视 # 视频源扩展，分享码：6666、1111、2222
     parent: app
@@ -552,6 +592,10 @@ apps:
     url: https://screen.bmcx.com/#welcome
     weight: 11
     parent: onlinetool
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: desktop
 
   - name: 屏幕刷新率检测
     url: https://testufo.com
@@ -673,6 +717,10 @@ apps:
     url: https://github.com/jackfrued/Python-100-Days
     weight: 4
     parent: prog
+    params:
+      icon:
+        vendor: bootstrap
+        name: github
 
   - name: Python Cookbook 3rd
     url: https://python3-cookbook.readthedocs.io/zh-cn/latest/index.html
@@ -738,9 +786,18 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
+  - name: 毛茸茸的星球 # 科普动物世界
+    parent: popscience
+    url: https://space.bilibili.com/431753564
+    weight: 4
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
+
   - name: 二次元的中科院物理所 # 中科院物理所
     url: https://space.bilibili.com/407045223
-    weight: 4
+    weight: 5
     parent: popscience
     params:
       icon:
@@ -749,7 +806,7 @@ apps:
 
   - name: 萌萌战队 # 航空航天行业的业内人士
     url: https://space.bilibili.com/357669580
-    weight: 5
+    weight: 6
     parent: popscience
     params:
       icon:

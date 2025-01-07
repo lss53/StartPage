@@ -17,21 +17,37 @@ apps:
     parent: curstds
     url: https://www.pep.com.cn/xw/zt/rjwy/yjkb2022/
     weight: 1
+    params:
+      icon:
+        vendor: bs
+        name: file-earmark-ruled
 
   - name: 普通高中课程标准（2017年版2020年修订）@人教社
     parent: curstds
     url: https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/
     weight: 2
+    params:
+      icon:
+        vendor: bs
+        name: file-earmark-ruled
 
   - name: 义务教育课程标准（2022年版）@教育部
     parent: curstds
     url: https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm
     weight: 3
+    params:
+      icon:
+        vendor: bs
+        name: file-earmark-ruled
 
   - name: 普通高中课程标准（2017年版2020年修订）@教育部
     parent: curstds
     url: http://www.moe.gov.cn/srcsite/A26/s8001/202006/t20200603_462199.html
     weight: 4
+    params:
+      icon:
+        vendor: bs
+        name: file-earmark-ruled
 
   # 教材电子版
   - name: 教材
@@ -42,11 +58,19 @@ apps:
     parent: textbook
     url: https://jc.pep.com.cn/
     weight: 1
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: book-atlas
 
   - name: 国家中小学智慧教育平台-课程教学
     parent: textbook
     url: https://basic.smartedu.cn/syncClassroom/auto
     weight: 2
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: book-atlas
 
   # 题库
   - name: 题库
@@ -73,41 +97,73 @@ apps:
     url: https://space.bilibili.com/39737405
     weight: 1
     parent: chinese
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: OK语文 # 免费系统课
     url: https://space.bilibili.com/3493281113573620
     weight: 2
     parent: chinese
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 逻辑笑语文 # 小众免费系统课
     url: https://space.bilibili.com/87931987
     weight: 3
     parent: chinese
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 春次是模板小砖家 # 主攻作文
     url: https://space.bilibili.com/1667838104
     weight: 4
     parent: chinese
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 语文作文菌 # 高分作文
     url: https://space.bilibili.com/505935166
     weight: 5
     parent: chinese
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 陈焕文-理性语文陈sir # 作文+套卷
     url: https://space.bilibili.com/1429201958
     weight: 6
     parent: chinese
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 国家玮-开明致学 # 系统课不免费
     url: https://space.bilibili.com/485578465
     weight: 7
     parent: chinese
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 中文系五匪子 # 系统课不免费
     url: https://space.bilibili.com/7920565
     weight: 8
     parent: chinese
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
 
   # 数学
@@ -119,66 +175,118 @@ apps:
     url: https://space.bilibili.com/14229967
     weight: 1
     parent: maths
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 会放羊的教书匠 # 同步课讲解
     url: https://space.bilibili.com/44980991
     weight: 2
     parent: maths
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 北大数学胡源老师 # 知识点讲解
     url: https://space.bilibili.com/3546705530194223
     weight: 3
     parent: maths
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 阿不高中数学 # 刷题、知识点都有
     url: https://space.bilibili.com/1893613490
     weight: 4
     parent: maths
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 橘子zhen好吃 # 攻破解析几何、导数、概率等压轴
     url: https://space.bilibili.com/1956704656
     weight: 5
     parent: maths
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: ToMath小火车 # 知识点讲解，但一轮要付费
     url: https://space.bilibili.com/2918884
     weight: 6
     parent: maths
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 赵礼显老师 # 知识点+套卷，但系统课要付费
     url: https://space.bilibili.com/488738478
     weight: 7
     parent: maths
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 无巧不成数 # 讲解《创新设计》
     url: https://space.bilibili.com/98211484
     weight: 8
     parent: maths
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 马老师的观点 # 试卷讲解，qq群拥有网络上能找到的几乎所有卷子
     url: https://space.bilibili.com/88820221
     weight: 9
     parent: maths
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: differ飘零 # 试卷讲解
     url: https://space.bilibili.com/363308722
     weight: 10
     parent: maths
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 夏老师的数学课 # 试卷讲解
     url: https://space.bilibili.com/379516008
     weight: 11
     parent: maths
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: Heshawn高中数学何帅 # 获取高考信息差，仅看视频即可
     url: https://space.bilibili.com/68554357
     weight: 12
     parent: maths
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 宋浩老师官方 # 线性代数讲得贼明白
     url: https://space.bilibili.com/66607740
     weight: 13
     parent: maths
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
 
   # 英语
@@ -190,31 +298,55 @@ apps:
     url: https://space.bilibili.com/2742391
     weight: 1
     parent: english
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 一英儿 # 一数旗下
     url: https://space.bilibili.com/632207543
     weight: 2
     parent: english
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 英语兔 # 啥都有
     url: https://space.bilibili.com/483162496
     weight: 3
     parent: english
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 英语的平行世界 # 知识点覆盖面全
     url: https://space.bilibili.com/388576777
     weight: 4
     parent: english
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 牛油果味牛排咦 # 阅读，视频较短
     url: https://space.bilibili.com/351383494
     weight: 5
     parent: english
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 杭州Looming老师 # 作文讲解
     url: https://space.bilibili.com/1788209292
     weight: 6
     parent: english
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
 
   # 物理
@@ -226,41 +358,73 @@ apps:
     url: https://space.bilibili.com/23630128
     weight: 1
     parent: physics
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 一物理儿 # 一数旗下
     url: https://space.bilibili.com/1881916943
     weight: 2
     parent: physics
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 北大学长跳跳 # 免费系统课
     url: https://space.bilibili.com/439177375
     weight: 3
     parent: physics
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 夏梦迪-高考物理 # 知识点+试卷讲解
     url: https://space.bilibili.com/53265107
     weight: 4
     parent: physics
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 物理界最好的段子手 # 考前大数据押题，课本回归
     url: https://space.bilibili.com/323593541
     weight: 5
     parent: physics
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 晴姐有美有物理 # 知识点讲解
     url: https://space.bilibili.com/3546721388857977
     weight: 6
     parent: physics
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 赵玉峰大物理 # 系统课要付费
     url: https://space.bilibili.com/383098482
     weight: 7
     parent: physics
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 于总CEO # 初中物理 
     url: https://space.bilibili.com/328350981
     weight: 8
     parent: physics
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
 
   # 化学
@@ -272,51 +436,91 @@ apps:
     url: https://space.bilibili.com/476738879
     weight: 1
     parent: chemistry
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 一化儿 # 一数旗下
     url: https://space.bilibili.com/1526560679
     weight: 2
     parent: chemistry
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 化学超人 # 同步课、知识点
     url: https://space.bilibili.com/416601949
     weight: 3
     parent: chemistry
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 桃子姐姐化学课 # 重难点攻破，知识点记忆技巧，题型攻破
     url: https://space.bilibili.com/1498318933
     weight: 4
     parent: chemistry
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 陆艳华老师 # 知识点讲解
     url: https://space.bilibili.com/513813254
     weight: 5
     parent: chemistry
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: agening化学 # 试卷和题型讲解
     url: https://space.bilibili.com/70605667
     weight: 6
     parent: chemistry
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 酒吧舞化学人 # 试卷讲评+资料分享
     url: https://space.bilibili.com/394995667
     weight: 7
     parent: chemistry
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 化学教员张子涵 # 讲题
     url: https://space.bilibili.com/407270850
     weight: 8
     parent: chemistry
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 化化学院老凡 # 素养提高，科普
     url: https://space.bilibili.com/612929803
     weight: 9
     parent: chemistry
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 化学玉 # 学晶胞时，过来看下动画
     url: https://space.bilibili.com/396025614
     weight: 10
     parent: chemistry   
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
 
   # 生物
@@ -328,31 +532,55 @@ apps:
     url: https://space.bilibili.com/2036187097
     weight: 1
     parent: biology
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 汉水丑生侯伟 # 系统课免费
     url: https://space.bilibili.com/519546088
     weight: 2
     parent: biology
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 生物全解-黄森 # 高中生物微课免费+科普
     url: https://space.bilibili.com/487809003
     weight: 3
     parent: biology
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 学生物真有范 # 系统课免费，但课件付费
     url: https://space.bilibili.com/1544790706
     weight: 4
     parent: biology
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 李林生物 # 系统课付费，《李林生物笔记》不错
     url: https://space.bilibili.com/229823308
     weight: 5
     parent: biology
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 生物错题本 # 试卷讲解，非充电系列够用
     url: https://space.bilibili.com/278461350
     weight: 6
     parent: biology
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 福建高中生物 QQ 群资源@林颖韬
     parent: biology
@@ -363,11 +591,10 @@ apps:
     parent: biology
     url: https://space.bilibili.com/1842737120
     weight: 8
-
-  - name: 毛茸茸的星球 # 科普动物世界
-    parent: biology
-    url: https://space.bilibili.com/431753564
-    weight: 9
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
 
   # 历史，石国鹏、袁腾飞
@@ -379,16 +606,28 @@ apps:
     url: https://space.bilibili.com/321084528
     weight: 1
     parent: history
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 刘勖雯政史地 # 考点+试题讲解
     url: https://space.bilibili.com/341071568
     weight: 2
     parent: history
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 段sir是懂王 # 历政地，考点+模板讲解
     url: https://space.bilibili.com/402847001
     weight: 3
     parent: history
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
 
   # 政治
@@ -400,21 +639,37 @@ apps:
     url: https://space.bilibili.com/280683362
     weight: 1
     parent: politics
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 易小川老师 # 佛系更新，不卖课也不卖课件
     url: https://space.bilibili.com/347401435
     weight: 2
     parent: politics
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 高考政治马宇轩 # 试题+知识点讲解
     url: https://space.bilibili.com/327222408
     weight: 3
     parent: politics
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 高中政治周野老师 # 知识点讲解
     url: https://space.bilibili.com/646603859
     weight: 4
     parent: politics
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
 
   # 地理
@@ -426,16 +681,28 @@ apps:
     url: https://space.bilibili.com/492547140
     weight: 1
     parent: geography
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 张艳平地理 # 考点+试题讲解
     url: https://space.bilibili.com/452971381
     weight: 2
     parent: geography
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
   - name: 羊羊的地理教室 # 考点+试题讲解
     url: https://space.bilibili.com/471009583
     weight: 3
     parent: geography
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
 
 
   # 志愿填报
