@@ -144,7 +144,7 @@ apps:
 
   - name: 美团千载
     parent: life
-    url: https://union.jd.com/
+    url: https://union.meituan.com/
     weight: 9
 
   - name: 巨量百应Buyin
@@ -335,7 +335,7 @@ apps:
     parent: win
 
   - name: Sordum   # 近百个 Windows 系统优化小工具
-    url: https://sanet.st/full/
+    url: https://www.sordum.org/
     weight: 9
     parent: win
 
@@ -531,6 +531,15 @@ apps:
     parent: app
     url: https://lxmusic.toside.cn/
     weight: 10
+
+  - name: 接口 # 一堆
+    parent: app
+    url: https://github.com/dlgt7/TVbox-interface/
+    weight: 11
+    params:
+      icon:
+        vendor: bs
+        name: github
 
 
   # 在线工具
