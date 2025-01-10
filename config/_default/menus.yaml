@@ -18,49 +18,54 @@ apps:
     weight: 1
     parent: ai
 
+  - name: Kimi
+    url: https://kimi.moonshot.cn/
+    weight: 2
+    parent: ai    
+
+  - name: 豆包 # 字节跳动
+    url: https://www.doubao.com
+    weight: 3
+    parent: ai
+
   - name: Claude # 需要和谐上网，不能用国内邮箱注册
     url: https://claude.ai
-    weight: 2
+    weight: 4
     parent: ai
 
   - name: ChatGPT # OpenAI
     url: https://chat.openai.com
-    weight: 3
+    weight: 5
     parent: ai
 
   - name: Gemini # Google
     url: https://ai.google.dev
-    weight: 4
+    weight: 6
     parent: ai
 
   - name: Copilot # Microsoft
     url: https://copilot.microsoft.com
-    weight: 5
+    weight: 7
     parent: ai
 
   - name: Chatbot Arena
     url: https://lmarena.ai/
-    weight: 6
+    weight: 8
     parent: ai
 
   - name: character.ai
     url: https://character.ai/
-    weight: 7
-    parent: ai
-
-  - name: 豆包 # 字节跳动
-    url: https://www.doubao.com
-    weight: 8
+    weight: 9
     parent: ai
 
   - name: QuillBot # 论文润色工具
     url: https://quillbot.com/
-    weight: 9
+    weight: 10
     parent: ai
 
   - name: Suno # 音乐生产模型
     url: https://suno.com
-    weight: 10
+    weight: 11
     parent: ai
     params:
       icon:
@@ -69,7 +74,7 @@ apps:
 
   - name: GPT-SoVITS # 文本转语音
     url: https://github.com/RVC-Boss/GPT-SoVITS
-    weight: 11
+    weight: 12
     parent: ai
     params:
       icon:
@@ -78,7 +83,7 @@ apps:
 
   - name: CapsWriter-Offline # 离线语音转文字
     url: https://github.com/HaujetZhao/CapsWriter-Offline
-    weight: 12
+    weight: 13
     parent: ai
     params:
       icon:
