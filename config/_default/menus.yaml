@@ -18,54 +18,99 @@ apps:
     weight: 1
     parent: ai
 
-  - name: Kimi
-    url: https://kimi.moonshot.cn/
+  - name: 腾讯元宝 # DeepSeek 平替网站 
+    url: https://yuanbao.tencent.com/chat
     weight: 2
-    parent: ai    
+    parent: ai
 
-  - name: 豆包 # 字节跳动
-    url: https://www.doubao.com
+  - name: QQ浏览器专线版 # DeepSeek 平替网站 
+    url: https://aisearch.qq.com/
     weight: 3
     parent: ai
 
-  - name: Claude # 需要和谐上网，不能用国内邮箱注册
-    url: https://claude.ai
+  - name: 当贝 AI # DeepSeek 平替网站 
+    url: https://ai.dangbei.com/chat
     weight: 4
+    parent: ai
+
+  - name: 支付宝百宝箱 # DeepSeek 平替网站 
+    url: https://tbox.alipay.com/pro/community
+    weight: 5
+    parent: ai
+
+  - name: 华为小艺 # DeepSeek 平替网站 
+    url: https://xiaoyi.huawei.com/chat
+    weight: 6
+    parent: ai
+
+  - name: 星辰跃问 # DeepSeek 平替网站 
+    url: https://yuewen.cn/chats/new
+    weight: 7
+    parent: ai
+
+  - name: SambaNova # DeepSeek 平替网站 
+    url: https://cloud.sambanova.ai/
+    weight: 8
+    parent: ai
+
+  - name: Flowith # DeepSeek 平替网站 
+    url: https://flowith.io/blank
+    weight: 9
+    parent: ai
+
+  - name: Lambda # DeepSeek 平替网站 
+    url: https://lambda.chat/
+    weight: 10
     parent: ai
 
   - name: ChatGPT # OpenAI
     url: https://chat.openai.com
-    weight: 5
+    weight: 11
     parent: ai
 
   - name: Gemini # Google
     url: https://ai.google.dev
-    weight: 6
+    weight: 12
+    parent: ai
+
+  - name: Kimi
+    url: https://kimi.moonshot.cn/
+    weight: 13
+    parent: ai    
+
+  - name: 豆包 # 字节跳动
+    url: https://www.doubao.com
+    weight: 14
+    parent: ai
+
+  - name: Claude # 需要和谐上网，不能用国内邮箱注册
+    url: https://claude.ai
+    weight: 15
     parent: ai
 
   - name: Copilot # Microsoft
     url: https://copilot.microsoft.com
-    weight: 7
+    weight: 16
     parent: ai
 
   - name: Chatbot Arena
     url: https://lmarena.ai/
-    weight: 8
+    weight: 17
     parent: ai
 
   - name: character.ai
     url: https://character.ai/
-    weight: 9
+    weight: 18
     parent: ai
 
   - name: QuillBot # 论文润色工具
     url: https://quillbot.com/
-    weight: 10
+    weight: 19
     parent: ai
 
   - name: Suno # 音乐生产模型
     url: https://suno.com
-    weight: 11
+    weight: 20
     parent: ai
     params:
       icon:
@@ -74,7 +119,7 @@ apps:
 
   - name: GPT-SoVITS # 文本转语音
     url: https://github.com/RVC-Boss/GPT-SoVITS
-    weight: 12
+    weight: 21
     parent: ai
     params:
       icon:
@@ -83,7 +128,7 @@ apps:
 
   - name: CapsWriter-Offline # 离线语音转文字
     url: https://github.com/HaujetZhao/CapsWriter-Offline
-    weight: 13
+    weight: 22
     parent: ai
     params:
       icon:
@@ -420,7 +465,7 @@ apps:
     parent: win
 
   - name: 绿软集合   # 一个绿色、纯净的常用软件工具箱
-    url: https://www.greenwinhub.com/
+    url: https://www.greensoftwarehub.com/
     weight: 25
     parent: win
 
