@@ -49,6 +49,7 @@ apps:
         vendor: bs
         name: file-earmark-ruled
 
+
   # 教材电子版
   - name: 教材
     identifier: textbook
@@ -71,6 +72,7 @@ apps:
       icon:
         vendor: font-awesome-solid
         name: book-atlas
+
 
   # 题库
   - name: 题库
@@ -182,6 +184,7 @@ apps:
       icon:
         vendor: font-awesome-brands
         name: bilibili
+
 
   # 数学
   - name: 数学
@@ -314,6 +317,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
+
   # 英语
   - name: 英语
     identifier: english
@@ -381,6 +385,7 @@ apps:
       icon:
         vendor: font-awesome-brands
         name: bilibili
+
 
   # 物理
   - name: 物理
@@ -468,7 +473,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 于总CEO # 初中物理 
+  - name: 于总CEO:初中物理
     url: https://space.bilibili.com/328350981
     weight: 10
     parent: physics
@@ -483,7 +488,7 @@ apps:
     identifier: chemistry
     weight: 8
 
-  - name: 化学老师李政 # 公认的真神
+  - name: 化学老师李政:公认的真神
     url: https://space.bilibili.com/476738879
     weight: 1
     parent: chemistry
@@ -564,7 +569,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 化化学院老凡 # 素养提高，科普
+  - name: 化化学院老凡:素养提高
     url: https://space.bilibili.com/612929803
     weight: 10
     parent: chemistry
@@ -573,10 +578,10 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 化学玉 # 学晶胞时，过来看下动画
+  - name: 化学玉:学晶胞时过来看下动画
     url: https://space.bilibili.com/396025614
     weight: 11
-    parent: chemistry   
+    parent: chemistry
     params:
       icon:
         vendor: font-awesome-brands
@@ -804,7 +809,7 @@ apps:
     identifier: university
     weight: 14
 
-  - name: 宋浩老师官方 # 线性代数讲得贼明白
+  - name: 宋浩老师官方:线性代数讲得贼明白
     url: https://space.bilibili.com/66607740
     weight: 1
     parent: university
@@ -813,7 +818,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 李天意Providence # 快速学完高等数学
+  - name: 李天意Providence:快速学完高等数学
     url: https://space.bilibili.com/36979113
     weight: 2
     parent: university
@@ -822,7 +827,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 3Blue1Brown # 理解线性代数的本质
+  - name: 3Blue1Brown:理解线性代数的本质
     url: https://space.bilibili.com/88461692
     weight: 3
     parent: university
@@ -831,7 +836,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 物理系的允文君 # 大学物理课程讲解
+  - name: 物理系的允文君:大学物理课程讲解
     url: https://space.bilibili.com/52663683
     weight: 4
     parent: university
@@ -841,7 +846,7 @@ apps:
         name: bilibili
 
   # https://docs.qq.com/sheet/DRU5MWHZCTHFGQnhM（需要登录查看）
-  - name: 碳十二 # 专业课程资源共建文档
+  - name: 碳十二:专业课程资源共建文档
     url: https://www.bilibili.com/video/BV1Mi4y1o7CE/
     weight: 5
     parent: university
@@ -850,12 +855,13 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  # 研究生
+
+  # 考研
   - name: 考研
     identifier: GraduateStudent
     weight: 15
 
-  - name: 考研斯基 # 考研经验教训
+  - name: 考研斯基:考研经验教训
     url: https://space.bilibili.com/431748468
     weight: 1
     parent: GraduateStudent
@@ -864,8 +870,8 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 鸟山学长 # 23考研月份规划
-    url: https://space.bilibili.com/258819429
+  - name: 鸟山学长:23考研月份规划
+    url: https://www.bilibili.com/video/BV1Mu41167Yg
     weight: 2
     parent: GraduateStudent
     params:
@@ -873,7 +879,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 空卡空卡空空卡 # 考研政治速成课
+  - name: 空卡空卡空空卡:考研政治速成课
     url: https://space.bilibili.com/16671656
     weight: 3
     parent: GraduateStudent
@@ -882,7 +888,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 学长小谭 # 考研政治经验分享
+  - name: 学长小谭:考研政治经验分享
     url: https://space.bilibili.com/401800534
     weight: 4
     parent: GraduateStudent
@@ -891,7 +897,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 小思想家ya # 考研英语干货
+  - name: 小思想家ya:考研英语干货
     url: https://space.bilibili.com/246448702
     weight: 5
     parent: GraduateStudent
@@ -900,7 +906,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 没咋了 # 考研数学经验
+  - name: 没咋了:考研数学经验
     url: https://space.bilibili.com/452790824
     weight: 6
     parent: GraduateStudent
@@ -909,12 +915,13 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
+
   # 科研
   - name: 科研
     identifier: ScientificResearch
     weight: 16
 
-  - name: 取景框看世界 # 论文资源查找
+  - name: 取景框看世界:论文资源查找
     url: https://www.bilibili.com/video/BV1D54y1W73h
     weight: 1
     parent: ScientificResearch
@@ -923,7 +930,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 毕导THU # 科研生涯科普
+  - name: 毕导THU:科研生涯科普
     url: https://www.bilibili.com/video/BV1wC4y1x7c8
     weight: 2
     parent: ScientificResearch
@@ -932,7 +939,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 钱婧老师 # 研究生文献阅读要求
+  - name: 钱婧老师:研究生文献阅读要求
     url: https://www.bilibili.com/video/BV1Tq4y1a7wi
     weight: 3
     parent: ScientificResearch
@@ -941,7 +948,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 免疫学尹芝南 # 文献阅读技巧
+  - name: 免疫学尹芝南:文献阅读技巧
     url: https://www.bilibili.com/video/BV1kR4y177tj
     weight: 4
     parent: ScientificResearch
@@ -950,7 +957,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 龙王山小青椒 # 论文范文解析
+  - name: 龙王山小青椒:论文范文解析
     url: https://www.bilibili.com/video/BV1No4y1y7ep
     weight: 5
     parent: ScientificResearch
@@ -959,13 +966,14 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
+
   # 考证
   - name: 考证
     identifier: certificate
     weight: 17
   
   # 英语四六级
-  - name: 我是瑞斯拜 # 四六级词汇课&作文模板
+  - name: 我是瑞斯拜:四六级词汇课&作文模板
     url: https://space.bilibili.com/11021614
     weight: 1
     parent: certificate
@@ -974,7 +982,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 喘喘winnie # 四六级备考攻略
+  - name: 喘喘winnie:四六级备考攻略
     url: https://space.bilibili.com/513866289
     weight: 2
     parent: certificate
@@ -983,7 +991,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 一白学长 # 四六级听力训练
+  - name: 一白学长:四六级听力训练
     url: https://www.bilibili.com/video/BV1ET4y1o7kx
     weight: 3
     parent: certificate
@@ -993,7 +1001,7 @@ apps:
         name: bilibili
 
   # 教师资格证
-  - name: CocoPolaris # 教师资格证笔试网课
+  - name: CocoPolaris:教师资格证笔试网课
     url: https://www.bilibili.com/video/BV1Ga4y1i77D
     weight: 4
     parent: certificate
@@ -1002,7 +1010,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 迟早会发光的镜子 # 教师资格证备考经验
+  - name: 迟早会发光的镜子:教师资格证备考经验
     url: https://www.bilibili.com/video/BV1iL4y1e7VX
     weight: 3
     parent: certificate
@@ -1018,7 +1026,7 @@ apps:
     weight: 18
   
   # 雅思
-  - name: 硫磺蛋 # 雅思考试技巧
+  - name: 硫磺蛋:雅思考试技巧
     url: https://www.bilibili.com/video/BV1yb411m7xp
     weight: 1
     parent: StudyAbroad
@@ -1027,7 +1035,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: Charlie有好好学习 # 雅思阅读方法全解
+  - name: Charlie有好好学习:雅思阅读方法全解
     url: https://space.bilibili.com/473413114
     weight: 2
     parent: StudyAbroad
@@ -1036,7 +1044,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 丸子Tina # 雅思口语备考
+  - name: 丸子Tina:雅思口语备考
     url: https://www.bilibili.com/video/BV175411f7QY
     weight: 3
     parent: StudyAbroad
@@ -1045,7 +1053,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 爱吃年糕的阿泽 # 高效学习雅思攻略
+  - name: 爱吃年糕的阿泽:高效学习雅思攻略
     url: https://www.bilibili.com/video/BV1N7411G7WE
     weight: 4
     parent: StudyAbroad
@@ -1055,7 +1063,7 @@ apps:
         name: bilibili
 
   # 托福
-  - name: Vince9120 # 7节课突破30分托福写作
+  - name: Vince9120:7节课突破30分托福写作
     url: https://www.bilibili.com/video/BV1UJ411T7oN
     weight: 5
     parent: StudyAbroad
@@ -1064,7 +1072,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 辛西娅酱X # 满分口语干货
+  - name: 辛西娅酱X:满分口语干货
     url: https://www.bilibili.com/video/BV1i3411h7y3
     weight: 6
     parent: StudyAbroad
@@ -1073,7 +1081,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 熙熙熙熙熙- # 托福自学备考经验
+  - name: 熙熙熙熙熙-:托福自学备考经验
     url: https://www.bilibili.com/video/BV1jY411s7gv
     weight: 7
     parent: StudyAbroad
@@ -1082,13 +1090,14 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
+
   # 个人成长
   - name: 个人成长
     identifier: PersonalGrowth
     weight: 19
   
   # 学生技能
-  - name: 取景框看世界 # 大学技能学习大全
+  - name: 取景框看世界:大学技能学习大全
     url: https://www.bilibili.com/video/BV16M4y1K7Eq
     weight: 1
     parent: PersonalGrowth
@@ -1097,7 +1106,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: Genj是真想教会你 # 学生党应该学会的硬技能
+  - name: Genj是真想教会你:学生党应该学会的硬技能
     url: https://www.bilibili.com/video/BV15B4y167Ds
     weight: 2
     parent: PersonalGrowth
@@ -1106,7 +1115,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 旁门左道PPT # PPT技巧教学
+  - name: 旁门左道PPT:PPT技巧教学
     url: https://www.bilibili.com/video/BV1ES4y1T7S6
     weight: 3
     parent: PersonalGrowth
@@ -1115,7 +1124,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: ExceI自学成才 # Excel技巧教学
+  - name: ExceI自学成才:Excel技巧教学
     url: https://www.bilibili.com/video/BV1uJ411R7ng
     weight: 4
     parent: PersonalGrowth
@@ -1124,7 +1133,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: CodeSheep # 编程学习导航
+  - name: CodeSheep:编程学习导航
     url: https://www.bilibili.com/video/BV1i34y1R7f2
     weight: 5
     parent: PersonalGrowth
@@ -1134,7 +1143,7 @@ apps:
         name: bilibili
 
   # 人际交往
-  - name: 二二酸酸 # 快速有效安慰朋友
+  - name: 二二酸酸:快速有效安慰朋友
     url: https://www.bilibili.com/video/BV1M64y147Ud
     weight: 6
     parent: PersonalGrowth
@@ -1143,7 +1152,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: _碳十二_ # 小心大学垃圾人
+  - name: _碳十二_:小心大学垃圾人
     url: https://www.bilibili.com/video/BV1yA411A783
     weight: 7
     parent: PersonalGrowth
@@ -1152,7 +1161,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 是你们的康康 # 处理寝室关系
+  - name: 是你们的康康:处理寝室关系
     url: https://www.bilibili.com/video/BV1N4411f7Sa
     weight: 8
     parent: PersonalGrowth
@@ -1162,7 +1171,7 @@ apps:
         name: bilibili
 
   # 大学建议
-  - name: 取景框看世界 # 打破大学信息差
+  - name: 取景框看世界:打破大学信息差
     url: https://www.bilibili.com/video/BV1UU4y1q7NC
     weight: 9
     parent: PersonalGrowth
@@ -1171,7 +1180,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 毕导THU # 新生入学建议
+  - name: 毕导THU:新生入学建议
     url: https://www.bilibili.com/video/BV1yi4y177aw
     weight: 10
     parent: PersonalGrowth
@@ -1180,7 +1189,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 在下小苏 # 大学避坑指南
+  - name: 在下小苏:大学避坑指南
     url: https://www.bilibili.com/video/BV1R4411A71P
     weight: 11
     parent: PersonalGrowth
@@ -1189,7 +1198,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 小小段砸 # 演绎大学真相
+  - name: 小小段砸:演绎大学真相
     url: https://www.bilibili.com/video/BV1Ag411R7fg
     weight: 12
     parent: PersonalGrowth
@@ -1198,7 +1207,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 耐心的钠珀学长 # 摆脱大学攀比心
+  - name: 耐心的钠珀学长:摆脱大学攀比心
     url: https://www.bilibili.com/video/BV1UA4y1Z7sN
     weight: 13
     parent: PersonalGrowth
@@ -1207,13 +1216,14 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
+
   # 求职技巧
   - name: 求职技巧
     identifier: job
     weight: 20
-  
+
   # 职业规划
-  - name: 取景框看世界 # 解决没目标和无规划
+  - name: 取景框看世界:解决没目标和无规划
     url: https://www.bilibili.com/video/BV1vP4y1A7K4
     weight: 1
     parent: job
@@ -1222,7 +1232,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: SuccessDiary_帅帅 # 生活迷茫怎么办
+  - name: SuccessDiary_帅帅:生活迷茫怎么办
     url: https://www.bilibili.com/video/BV1zT4y13785
     weight: 2
     parent: job
@@ -1231,7 +1241,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 一万也 # 大学生职业规划思路
+  - name: 一万也:大学生职业规划思路
     url: https://www.bilibili.com/video/BV1xP4y1T7Gc
     weight: 3
     parent: job
@@ -1241,7 +1251,7 @@ apps:
         name: bilibili
 
   # 简历制作
-  - name: 取景框看世界 # 最强简历攻略
+  - name: 取景框看世界:最强简历攻略
     url: https://www.bilibili.com/video/BV1NL4y1878J
     weight: 4
     parent: job
@@ -1250,7 +1260,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 小Lin说 # 简历"神奇4步法”
+  - name: 小Lin说:简历"神奇4步法”
     url: https://www.bilibili.com/video/BV1s64y1h7kS
     weight: 5
     parent: job
@@ -1259,7 +1269,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 赤焰男孩 # 简历避坑指南
+  - name: 赤焰男孩:简历避坑指南
     url: https://www.bilibili.com/video/BV1fT4y1a7qG
     weight: 6
     parent: job
@@ -1269,7 +1279,7 @@ apps:
         name: bilibili
 
   # 面试心得
-  - name: 李老师大学生辅导 # 面试自我个绍攻略
+  - name: 李老师大学生辅导:面试自我个绍攻略
     url: https://www.bilibili.com/video/BV1sE411j7iq
     weight: 7
     parent: job
@@ -1278,7 +1288,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 姜Dora在此 # 面试自我介绍技巧
+  - name: 姜Dora在此:面试自我介绍技巧
     url: https://www.bilibili.com/video/BV1nR4y1K7JW
     weight: 8
     parent: job
@@ -1287,7 +1297,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 鹅姐职场 # 面试常问问题
+  - name: 鹅姐职场:面试常问问题
     url: https://www.bilibili.com/video/BV1T7411F7FM
     weight: 9
     parent: job
@@ -1297,7 +1307,7 @@ apps:
         name: bilibili
 
   # 公考课程
-  - name: 公考杨济瑞 # 公考知识扫盲
+  - name: 公考杨济瑞:公考知识扫盲
     url: https://www.bilibili.com/video/BV1rf4y1z7uN
     weight: 10
     parent: job
@@ -1306,7 +1316,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 刘文超Vin # 行测系统课
+  - name: 刘文超Vin:行测系统课
     url: https://www.bilibili.com/video/BV12t4115735
     weight: 11
     parent: job
@@ -1324,7 +1334,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: 公考章晓铭 # 公考面试攻略
+  - name: 公考章晓铭:公考面试攻略
     url: https://www.bilibili.com/video/BV1kJ411s71p
     weight: 13
     parent: job
