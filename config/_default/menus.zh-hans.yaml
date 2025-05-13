@@ -1343,3 +1343,61 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
+  # 学习方法
+  - name: 学习方法
+    identifier: LearningMethod
+    weight: 21
+
+  - name: YJango:教育部学习方法合作项目断墨寻径
+    url: https://www.bilibili.com/video/BV1LU4y1g7no
+    weight: 1
+    parent: LearningMethod
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
+
+  - name: 蜡笔和小勋:提升记忆效率
+    url: https://www.bilibili.com/video/BV14b411h7FM
+    weight: 2
+    parent: LearningMethod
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
+
+  - name: 二二酸酸:进入学习状态
+    url: https://www.bilibili.com/video/BV1QX4y157mJ
+    weight: 3
+    parent: LearningMethod
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
+
+  - name: @杨真直:提高学习动力
+    url: https://www.bilibili.com/video/BV1Ya4y1W7iT
+    weight: 4
+    parent: LearningMethod
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
+
+  - name: @树林同学:高中学习系统合集
+    url: https://www.bilibili.com/video/BV1X3411k7CX
+    weight: 5
+    parent: LearningMethod
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
+
+  - name: @可妈可吗:高中考高分攻略
+    url: https://www.bilibili.com/video/BV1p741127kM
+    weight: 6
+    parent: LearningMethod
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: bilibili
