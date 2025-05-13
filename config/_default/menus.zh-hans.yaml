@@ -1343,6 +1343,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
+
   # 学习方法
   - name: 学习方法
     identifier: LearningMethod
@@ -1384,7 +1385,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: @树林同学:高中学习系统合集
+  - name: @树林同学-:高中学习系统合集
     url: https://www.bilibili.com/video/BV1X3411k7CX
     weight: 5
     parent: LearningMethod
