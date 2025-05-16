@@ -1376,7 +1376,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: @杨真直:提高学习动力
+  - name: 杨真直:提高学习动力
     url: https://www.bilibili.com/video/BV1Ya4y1W7iT
     weight: 4
     parent: LearningMethod
@@ -1385,7 +1385,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: @树林同学-:高中学习系统合集
+  - name: 树林同学-:高中学习系统合集
     url: https://www.bilibili.com/video/BV1X3411k7CX
     weight: 5
     parent: LearningMethod
@@ -1394,7 +1394,7 @@ apps:
         vendor: font-awesome-brands
         name: bilibili
 
-  - name: @可妈可吗:高中考高分攻略
+  - name: 可妈可吗:高中考高分攻略
     url: https://www.bilibili.com/video/BV1p741127kM
     weight: 6
     parent: LearningMethod
