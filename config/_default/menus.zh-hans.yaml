@@ -803,6 +803,10 @@ apps:
     url: https://gaokao.chsi.com.cn/zyck/
     weight: 3
 
+  - name: 大学生活质量指北
+    parent: zyck
+    url: https://colleges.chat
+    weight: 4
 
   # 大学
   - name: 大学
